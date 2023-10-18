@@ -1,23 +1,172 @@
-# Frag-MaP Enrich 2 Experiment
+# Frag-MaP experimental protocol
 
 Seth D. Veenbaas
-05/05/2023
+10/16/2023
 
 ## Experiment Summary
 
-### Goal:
-
-Enrich rRNA photo-crosslinked to fully-functionalized fragments in B. subtilis total RNA.
+Detect the RNA binding site of fully-functionalized fragments in B. subtilis total RNA.
 
 ## Protocol Overview:
 
+- Photocrosslink and extract RNA
 - Partial Fragmentation of total RNA
 - Click Azide-PEG3-Biotin
-- Streptavidin bead enrichment
-- RT
+- Streptavidin bead enrichment (optional)
+- Ethanol precipitation
+- MaP RT
 - Second strand synthesis
 - NEB Ultra II adapter ligation kit
+- Qubit
+- Bioanalyzer
+- Pool and dilute library
 - Miseq
+
+##  Photocrosslink and extract RNA (3 days)
+
+Prepare ligand crosslinked total RNA for JuMP RT, and sequencing.
+
+### **NOTE: All experiments should start fresh by streaking B. sub on plates.**
+
+* B. sub does not grow well from glycerol stocks or passaged cell pellets. 
+
+* B. sub does not store well at 4 °C because it enters a spore form.
+
+### Day 1: Plate cells
+
+#### Materials:
+
+* B. subtilis str. 168 glycerol stock
+* LB Agar plate
+
+#### Protocol:
+
+1. Streak a plate with B. subtilis str. 168 to form single colonies. 
+2. Incubate plate at 30 °C overnight.
+
+### Day 2: Overnight culture
+
+#### Materials:
+
+* LB media (5 mL)
+* Culture tube
+
+#### Protocol:
+
+1. Inoculate 5 mL LB media with a single colony from plate. 
+2. Grow cells overnight at 30 °C, 225 rpm.
+
+### Day 3: Probe cells and extract RNA (~10 hours)
+
+#### Materials:
+
+* LB media (50 mL)
+* PBS buffer (100 mL)
+* 50 mM ligand stock in DMSO (20 uL per sample)
+* Sterile 6-well plastic plate (1 well per sample)
+* lysozyme (60 mg)
+* 1M Tris pH 7 (180 uL)
+* 0.5 M EDTA (120 uL)
+* Chloroform
+* 100% ethanol
+* Qiogen RNAeasy Plus Universial Mini kit
+
+#### Protocol:
+
+3. Inoculate 60 mL LB media with 3 mL cultured cells and grow cells to 0.50 OD600.
+
+    **NOTE: Expect cell growth to take ~2.5 hours.**
+
+    | Time point | #1 OD600 | #2 OD600 |
+    | :--------: | :------: | :------: |
+    |            |    -     |    -     |
+    |            |          |          |
+    |            |          |          |
+
+4. Buffer excahnge cells.
+    * Gently pellet cells at 3200g for 10 min at 4 °C.
+    * Carefully remove supernatant.
+    * Wash cell pellet with 50 mL PBS buffer, repeat centrifugation, and carefully remove supernatant.
+    * Resuspend cells in 50 mL PBS buffer.
+
+5. Probe cells with functionalized ligands.
+    * Combine 4,980 uL of cultured media with 20 uL of photo-reactive ligand (50 mM stock in DMSO) and pipette mix. Avoid prolonged light exposure. 
+    
+        **NOTE: final [ligand] is 200 uM. 250X dilution.**
+
+    * Incubate ligand-treated cells for 30 minutes at 30 °C and 225 rpm. 
+    
+        **NOTE: Keep solution in dark**.
+
+6. Cross-link functionalized ligands to RNA.
+    * Transfer 5 mL cell solution to a sterile 6-well plastic plate.
+    * Place uncover plate and place on ice
+    * Irradiate with 365 nm light source and cross-link with 3 J/cm2. 
+    
+        **NOTE: This is nine minutes (or three max energy hits) 5-6 cm from the light source in a UVP crosslinker.**
+
+7. Create cell pellet. 
+    * Centrifuge to pellet the cells. 8,000xg for 10 min. at 4 °C.
+    * Discard supernatant.
+
+8. Prepare fresh lysis buffer.
+    * (30 mM Tris pH 7, 10 mM EDTA, 10 mg/mL lysozyme):
+  
+    | Reagent                | Amount       |
+    | :--------------------- | :----------- |
+    | lysozyme               | 50 mg        |
+    | 1M Tris pH 7           | 150 uL       |
+    | 0.5M EDTA              | 100 uL       |
+    | RNase inhibitor murine | 50 uL        |
+    | NF H2O                 | 4700 uL      |
+    | **TOTAL**              | **5,000 uL** |
+
+
+8. Lysis cell pellet with lysozyme buffer.
+    * Add 250 uL of buffer lysis to each cell pellet.
+    * Incubate for 30 min. at RT.
+    
+9. Extract and purify total RNA from cells. 
+    * Use 1000 uL of Tri-reagent 
+    * Mix aggressively to aid in lysis
+    * Lyse for 15 minutes
+    * Add 250 uL of chloroform
+    * Vortex and incubate at RT for 3-5 minutes
+    * Centrifuge at 15000xg for 15 minutes at 4 C
+    * **NOTE: Keep sample on ice until aqueous layer is recovered**
+    * Add 100% ethanol to each recovered aqueous layer in equal parts (1:1)
+    * Follow Direct-zol RNA Miniprep Plus Kit instructions.
+    * Elute from column with 50 uL of NFW
+
+        **NOTE: Yields of ~50-60 ug total RNA have been achieved per 5 mL culture probed.**
+
+10. Check RNA purity.
+    * Measure absorbance ratio (A260/280 and A260/230) on nanodrop.
+
+    | Culture | Sample ID | Yield (μg) | [RNA] (ng/μL) | A260/280 | A260/230 |
+    | :-----: | :-------: | :--------: | :-----------: | :------: | -------- |
+    |         |           |            |               |          |          |
+    |         |           |            |               |          |          |
+    |         |           |            |               |          |          |
+    |         |           |            |               |          |          |
+    |         |           |            |               |          |          |
+    |         |           |            |               |          |          |
+    |         |           |            |               |          |          |
+    |         |           |            |               |          |          |
+
+### NOTES:
+
+* Samples diluted to 500 ng/μL and flash frozen.
+
+### Storage:
+
+* RNA can be stored overnight at 4 °C for ~ 1 week.
+* RNA can be flash-frozen in aliquots and stored at -80 °C for ~1 year.
+
+### Next Steps:
+
+* Partial RNA Fragmentation
+* MaP-RT
 
 ## Sample Details:
 
@@ -25,76 +174,17 @@ RNA provided from Frag-MaP Cell Probing 4 experiment (200 μM).
 
 | Sample ID | Replicate | Ligand | Fragmention | Enrichment | [RNA] (ng/μL) | i7 index | i5 index |
 | :-------- | :-------: | :----: | :---------: | :--------: | :-----------: | :------: | :------: |
-| 1D        |     1     |  DMSO  |     RNA     |  Enriched  |      500      |   701    |   504    |
-| 1M        |     1     | Methyl |     RNA     |  Enriched  |      500      |   702    |   504    |
-| 1Z        |     1     |  ZLD   |     RNA     |  Enriched  |      500      |   703    |   504    |
-| 1Q        |     1     |   QN   |     RNA     |  Enriched  |      500      |   704    |   504    |
-| 1B        |     1     |   BO   |     RNA     |  Enriched  |      500      |   705    |   504    |
-| 1H        |     1     |   HO   |     RNA     |  Enriched  |      500      |   706    |   504    |
-| 1G        |     1     |   GO   |     RNA     |  Enriched  |      500      |   707    |   504    |
-| 1J        |     1     |   JO   |     RNA     |  Enriched  |      500      |   708    |   504    |
-| 2D        |     2     |  DMSO  |     RNA     |  Enriched  |      500      |   701    |   505    |
-| 2M        |     2     | Methyl |     RNA     |  Enriched  |      500      |   702    |   505    |
-| 2Z        |     2     |  ZLD   |     RNA     |  Enriched  |      500      |   703    |   505    |
-| 2Q        |     2     |   QN   |     RNA     |  Enriched  |      500      |   704    |   505    |
-| 2B        |     2     |   BO   |     RNA     |  Enriched  |      500      |   705    |   505    |
-| 2H        |     2     |   HO   |     RNA     |  Enriched  |      500      |   706    |   505    |
-| 2G        |     2     |   GO   |     RNA     |  Enriched  |      500      |   707    |   505    |
-| 2J        |     2     |   JO   |     RNA     |  Enriched  |      500      |   708    |   505    |
+|           |           |        |             |            |               |          |          |
+|           |           |        |             |            |               |          |          |
+|           |           |        |             |            |               |          |          |
+|           |           |        |             |            |               |          |          |
+|           |           |        |             |            |               |          |          |
+|           |           |        |             |            |               |          |          |
+|           |           |        |             |            |               |          |          |
+|           |           |        |             |            |               |          |          |
 
 
-## Optimization: Partial Fragmentation of total RNA
-
-Find conditions to fragment total RNA to around 200 nt average length.
-
-### Materials:
-
-- Total RNA (2 μg) (DMSO NO UV sample from Cell Probing 2)
-- [NEBNext® Magnesium RNA Fragmentation Module](https://www.neb.com/products/e6150-nebnext-magnesium-rna-fragmentation-module#Product%20Information)
-
-### Protocol:
-
-1. Mix the following components in a sterile PCR tube:
-
-| Component                           |    Volume |
-| :---------------------------------- | --------: |
-| DMSO NO UV sample total RNA (~2 μg) |      8 μL |
-| NFW                                 |     10 μL |
-| RNA Fragmentation Buffer (10X)      |      2 μL |
-| **Total**                           | **20 μL** |
-
-2. Incubate in a preheated thermal cycler:
-
-| Condition | Time | Temp |
-| --------- | :--: | :--: |
-| 0         |  -   |  RT  |
-| 1         |  2   | 94°C |
-| 2         |  3   | 94°C |
-| 3         |  4   | 94°C |
-| 4         |  5   | 94°C |
-| 5         |  5   | 80°C |
-| 6         |  6   | 94°C |
-| 7         |  7   | 80°C |
-| 8         |  9   | 80°C |
-| 9         |  11  | 80°C |
-
-
-3. Transfer tube to ice immediately.
-4. Add 3 μl 10X RNA Fragmentation Stop Solution.
-
-### Notes:
-
-* 94°C produced a tighter distribution
-* 80°C had a more pronouced tail of longer produces and inconsistent results
-* Best conditions to create ~150-200 nt length fragemnts: 94°C for 3 minutes
-* Bioanalyzer data from 5/12/2023
-
-### More Information:
-
-[NEBNext® Magnesium RNA Fragmentation Module Protocol](https://www.neb.com/protocols/0001/01/01/nebnext-magnesium-rna-fragmentation-module-protocol-e6150)
-
-
-## Partial Fragmentation of total RNA
+## Partial Fragmentation of total RNA (~0.5 hour)
 
 Fragment RNA to around 150 nt average length.
 
@@ -116,22 +206,16 @@ Fragment RNA to around 150 nt average length.
 2. Incubate in a preheated thermal cycler for 3 minutes at 94°C.
 3. Transfer tube to ice immediately.
 4. Add 2 μl 10X RNA Fragmentation Stop Solution.
+5. Clean up with [Monarch RNA Cleanup kit](https://www.neb.com/en-us/products/t2030-monarch-rna-cleanup-kit-10-ug#Product%20Information)
 
 ### More Information:
 
 [NEBNext® Magnesium RNA Fragmentation Module Protocol](https://www.neb.com/protocols/0001/01/01/nebnext-magnesium-rna-fragmentation-module-protocol-e6150)
 
-## Monarch RNA Cleanup kit
 
-* Also try: [Separation of Large and Small RNA into Fractions](https://www.neb.com/protocols/2018/06/28/separation-of-large-and-small-rna-into-fractions--using-the-monarch-rna-cleanup-kits)
+## Click Azide-PEG3-Biotin (~1 hour)
 
-### Notes:
-
-* The protocol for seperation of Large and Small RNA into Fractions did not produce better results than the standard protocol.
-
-## Click chemistry with alkyne-RNA & azide-oligo primer using 50% DMSO denaturant
-
-This prtocol is intented to add steric bulk to increase MaP-RT mutation efficency at fully functionalized fragment crosslink sites.
+This prtocol is intented to add a vector to enable biotin-streptavin enrichment for crosslinked RNA.
 
 ### Materials:
 
@@ -252,7 +336,7 @@ Multiple reagents amounts by the number of intended samples
 | 2G        |               |          |          |
 | 2J        |               |          |          |
 
-## Streptavidin bead enrichment
+## Streptavidin bead enrichment (~1 hour)
 
 Enrich crosslinked RNA via Biotin-Streptavidin pull-down.
 
@@ -352,7 +436,7 @@ Enrich crosslinked RNA via Biotin-Streptavidin pull-down.
 
 - [Ethanol precipitation](ethanol-rna-precipitation.md)
 
-## Purify RNA - Ethanol Precipitation
+## Purify RNA - Ethanol Precipitation (~2 hours)
 
 Purified RNA may need to be concentrated by precipitation for downstream
 applications. Precipitation of RNA with ethanol (or isopropanol) is the
@@ -426,15 +510,11 @@ standard method to recover RNA from aqueous solutions.
 
 - RNA can be stored for up to 1 yr at −80 °C.
 
-## Notes:
-
-- Used Ammonium Acetate and 2 μL of Glycoblue
-
 ## More information:
 
 - [Precipitation of RNA with Ethanol](https://cshprotocols.cshlp.org/content/2020/3/pdb.prot101717.full)
  
-# Mutational profiling RT (DMS-optimized)
+# Mutational profiling RT (~3 hours)
 
 This is protocol is based on Smola et.al., 2015. It has been optimized for the
 synthesis of long cDNA from DMS modified RNA.
@@ -498,41 +578,16 @@ synthesis of long cDNA from DMS modified RNA.
    * 10 cycles of 50°C for 2 min and 42°C for 2 min.
    * Deactivate at 70°C for 10 min.
    * Hold at 4°C.
+9. Purify cDNA with [G-50 column](https://www.cytivalifesciences.com/en/us/shop/molecular-and-immunodiagnostics/pcr-cleanup-and-size-selection/illustra-microspin-g-50-columns-p-00056?s_kwcid=AL!14612!3!675381046559!!!g!!&dtid=semp_google_20584436769_152358921965&ps_kw=&extcmp=G-SE-PAID-CY23072-GLOBAL-ALL-Research-matters-Google-Ads-Microspin-G-50-Columns&adgrp=&gclid=Cj0KCQjw4bipBhCyARIsAFsieCx4oBgd-ebx6sMs5pbFPAENOKxupyYOSkLWZ0s7ugzSo3WgdScv5nAaAkZpEALw_wcB#related-documents)
 
-## Notes
 
-* xD and xR series of samples used ~15 ng of RNA input
-* xU series of samples used ~300 ng of RNA input
 
 ## More Information:
 
 * [First-Stand cDNA Synthesis Using SuperScript II RT](https://tools.thermofisher.com/content/sfs/manuals/superscriptII_pps.pdf)
 
-# Purify cDNA: G50 Column
 
-## Materials:
-
-* G-50 column
-
-## Protocol:
-
-1. Prepare column
-
-    * Re-suspend resin by vortexing
-    * Loosen cap and twist off bottom
-    * Centrifuge at 735 x g for 1 minute
-
-2. Apply sample
-
-    * Place column into an DNase free tube
-    * Gently pipette 12-50 uL of sample onto the center of the resin
-
-3. Elute sample
-
-    * Centifuge at 735 x g for 2 minutes
-    * Keep eluate
-
-# Second Strand Synthesis
+# Second Strand Synthesis (~2 hours)
 
 From first strand synthesis product, a mix of enzymes polymerizes a second
 cDNA from the first cDNA of a DNA-RNA hybrid, then digests away the RNA.
@@ -572,16 +627,16 @@ cDNA from the first cDNA of a DNA-RNA hybrid, then digests away the RNA.
 * [Nextera XT](nextera-xt.md)
 
 
-# DNA Library Prep (Adapter Ligation) - NEBNEXT Ultra II
+# DNA Library Prep (Adapter Ligation) - NEBNEXT Ultra II (~2 hours)
 
 ## Materials:
 
 * dsDNA (500 pg - 1 μg)
-* (green) NEBNext Ultra II End Prep Enzyme Mix
-* (green) NEBNext Ultra II End Prep Reaction Buffer
-* (red) NEBNext Ultra II Ligation Master Mix
-* (red) NEBNext Ligation Enhancer
-* (blue) NEBNext Ultra II Q5 Master Mix
+* NEBNext Ultra II End Prep Enzyme Mix
+* NEBNext Ultra II End Prep Reaction Buffer
+* NEBNext Ultra II Ligation Master Mix
+* NEBNext Ligation Enhancer
+* NEBNext Ultra II Q5 Master Mix
 * NEBNext Oligo Kit
 * 80% Ethanol
 
@@ -621,13 +676,13 @@ cDNA from the first cDNA of a DNA-RNA hybrid, then digests away the RNA.
 
         * **NOTE: Do NOT premix Adapter with Master Mix or Ligation Enhancer.**
 
-        | COMPONENT                                  |      VOLUME |
-        | :----------------------------------------- | ----------: |
-        | End Prep Reaction Mixture                  |       60 µl |
-        | (red) NEBNext Adaptor (diluted)            |      2.5 µl |
-        | (red) NEBNext Ultra II Ligation Master Mix |       30 µl |
-        | (red) NEBNext Ligation Enhancer            |        1 µl |
-        | **TOTAL**                                  | **93.5 µL** |
+        | COMPONENT                            |      VOLUME |
+        | :----------------------------------- | ----------: |
+        | End Prep Reaction Mixture            |       60 µl |
+        | NEBNext Adaptor (diluted)            |      2.5 µl |
+        | NEBNext Ultra II Ligation Master Mix |       30 µl |
+        | NEBNext Ligation Enhancer            |        1 µl |
+        | **TOTAL**                            | **93.5 µL** |
 
     * Mix thoroughly and spin down.
     * Incubate at 20 °C for 15 minutes with lid heater off.
@@ -651,13 +706,13 @@ cDNA from the first cDNA of a DNA-RNA hybrid, then digests away the RNA.
 
     * Add the following components to a PCR strip:
 
-    | COMPONENT                             |    VOLUME |
-    | :------------------------------------ | --------: |
-    | Adaptor Ligated DNA Fragments         |     15 µl |
-    | (blue) NEBNext Ultra II Q5 Master Mix |     25 µl |
+    | COMPONENT                      |    VOLUME |
+    | :----------------------------- | --------: |
+    | Adaptor Ligated DNA Fragments  |     15 µl |
+    | NEBNext Ultra II Q5 Master Mix |     25 µl |
     | Index Primer/i7 Primer         |      5 µl |
     | Universal PCR Primer/i5 Primer |      5 µl |
-    | **TOTAL**                             | **50 µl** |
+    | **TOTAL**                      | **50 µl** |
 
     * Mix thoroughly and spin down.
     * Choose number of PCR cycles using the table below:
@@ -669,7 +724,7 @@ cDNA from the first cDNA of a DNA-RNA hybrid, then digests away the RNA.
     |     10 ng |             6–7             |
     |      5 ng |             7–8             |
     |      1 ng |            9–10             |
-    |    0.5 ng |            10–11            |
+    |    0.5 ng |            10–13            |
  
     * Perform PCR amplification using the following PCR cycling conditions:
 
@@ -696,6 +751,7 @@ cDNA from the first cDNA of a DNA-RNA hybrid, then digests away the RNA.
 
 ## Notes:
 
+* 12 cycles of PCR used
 * Lengths are insert + adaptor (60 nt) + primers (60 nt)
 
 ## Next Steps:
@@ -703,19 +759,20 @@ cDNA from the first cDNA of a DNA-RNA hybrid, then digests away the RNA.
 * Qubit
 * Bioanalyzer
 
-# Qubit
+# Qubit (~0.5 hours)
 
 Quantify the dscDNA product from second strand synthesis via Qubit HS DNA assay. 
 
 ## Material
 
-* Qubit tubes
-* Working solution
-* Standards 1 & 2
+* [Qubit 1X dsDNA HS kit](https://www.thermofisher.com/order/catalog/product/Q33230)
+    * Qubit tubes
+    * 1X working solution
+    * Standards 1 & 2
 
 ## Protocol
 
-1. Create standards:
+1. Create standard 1 & 2:
     * Add 190 μL of working solution into Qubit tube
     * Add 10 μL of standard
     * Equalibrate to RT
@@ -729,25 +786,17 @@ Quantify the dscDNA product from second strand synthesis via Qubit HS DNA assay.
 
 | Sample ID | [dscDNA] ng/μL |
 | :-------- | :------------: |
-| 1D        |      5.39      |
-| 1M        |      7.80      |
-| 1Z        |      3.73      |
-| 1Q        |      7.40      |
-| 1B        |      0.96      |
-| 1G        |      6.93      |
-| 1H        |      4.20      |
-| 1J        |      9.73      |
-| 2D        |      4.47      |
-| 2M        |      3.83      |
-| 2Z        |      4.73      |
-| 2Q        |      1.51      |
-| 2B        |      0.95      |
-| 2G        |      4.31      |
-| 2H        |      3.90      |
-| 2J        |      4.01      |
+|           |                |
+|           |                |
+|           |                |
+|           |                |
+|           |                |
+|           |                |
+|           |                |
+|           |                |
 
 
-# DNA bioanalyzer
+# Bioanalyzer (~1 hour)
 
 Determine the average length of nextera library.
 
@@ -759,41 +808,34 @@ Determine the average length of nextera library.
 
 ## Protocol 
 
-* Follow manfactuer protocol card
+* Follow Agilent [protocol](https://www.agilent.com/cs/library/usermanuals/Public/G2938-90321_SensitivityDNA_KG_EN.pdf)
 
 ## Results
 
 | Sample ID | Avg. bp length | % of total |
 | :-------- | :------------: | ---------: |
-| 1D        |      241       |         92 |
-| 1M        |      243       |         98 |
-| 1Z        |      260       |         93 |
-| 1Q        |      256       |         98 |
-| 1B        |      239       |         84 |
-| 1G        |      232       |         97 |
-| 1H        |      250       |         95 |
-| 1J        |      240       |         91 |
-| 2D        |      251       |         99 |
-| 2M        |      278       |         98 |
-| 2Z        |      282       |         98 |
-| 2Q        |      231       |         97 |
-| 2B        |      236       |         91 |
-| 2G        |      246       |         97 |
-| 2H        |      250       |         96 |
-| 2J        |      240       |         96 |
+|           |                |            |
+|           |                |            |
+|           |                |            |
+|           |                |            |
+|           |                |            |
+|           |                |            |
+|           |                |            |
+|           |                |            |
 
-# Pool and dilute library
+
+# Pool and dilute library (~1 hour)
 
 Dilute sample to the same molarity and pool for sequencing.
 
 ## Material
 
-* Illumina-mix-calculator.xlsx
-* Sample_Sheet.xlsx
+* [Illumina-mix-calculator.xlsx](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/blob/main/Frag-MaP/protocol/Illumina-mix-calculator.xlsx)
+* [Sample_Sheet.xlsx](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/blob/main/Frag-MaP/protocol/SAMPLE_SHEET.xlsx)
 
-## Target library concentration
+## Target library concentration for illumina v3 chemistry
 
- 2.00 nM -> 10 pM
+ 2.00 nM [library] -> 10 pM [final]
 
 ## Protocol 
 
@@ -813,38 +855,36 @@ Dilute sample to the same molarity and pool for sequencing.
 
     | Sample ID | [non-dimer] (nM) | Amount to pool (μL) |
     | :-------- | :--------------: | ------------------: |
-    | 1D        |      33.84       |                1.79 |
-    | 1M        |      51.73       |                1.17 |
-    | 1Z        |      21.94       |                2.76 |
-    | 1Q        |      46.59       |                1.30 |
-    | 1B        |       5.55       |               10.93 |
-    | 1G        |      47.65       |                1.27 |
-    | 1H        |      26.25       |                2.31 |
-    | 1J        |      60.67       |                1.00 |
-    | 2D        |      29.00       |                2.09 |
-    | 2M        |      22.21       |                2.73 |
-    | 2Z        |      27.04       |                2.24 |
-    | 2Q        |      10.43       |                5.82 |
-    | 2B        |       6.02       |               10.07 |
-    | 2G        |      27.95       |                2.17 |
-    | 2H        |      24.63       |                2.46 |
-    | 2J        |      26.38       |                2.30 |
+    |           |                  |                     |
+    |           |                  |                     |
+    |           |                  |                     |
+    |           |                  |                     |
+    |           |                  |                     |
+    |           |                  |                     |
+    |           |                  |                     |
+    |           |                  |                     |
 
 5. Verify concentration via Qubit.
 
-   |          Name          | ng/μL |    nM |
-   | :--------------------: | ----: | ----: |
-   | FME2 Seq. Lib. Initial | 3.320 | 22.28 |
-   |  FME2 Seq. Lib. Final  | 0.296 |  1.99 |
+   | Sample ID | ng/μL |  nM |
+   | :-------: | ----: | --: |
+   |           |       |     |
+   |           |       |     |
+   |           |       |     |
+   |           |       |     |
+   |           |       |     |
+   |           |       |     |
+   |           |       |     |
+   |           |       |     |
 
 
 ## Next Steps
 
 MiSeq
 
-# MiSeq
 
-  
+# MiSeq (~2 hours)
+
 Normalized DNA sequencing libraries are pooled, denatured, diluted, loaded into a MiSeq reagent kit, and ran on the MiSeq
 
 1. Post-run wash (if not already completed)
@@ -858,8 +898,7 @@ Normalized DNA sequencing libraries are pooled, denatured, diluted, loaded into 
     * Start post-run wash
 
 2. Reboot computer and clear disk space
-    * Make sure D:drive has at least 100 GB free
-    * If not, delete the oldest run from /Illumina-output/
+    * Make drive has at least 100 GB free
     * Shut-down windows through the start menu
     * Once complete, shut off power to the device for 30 seconds
     * Turn on power switch, device will reboot
@@ -868,32 +907,26 @@ Normalized DNA sequencing libraries are pooled, denatured, diluted, loaded into 
     * Open MiSeq Reagent Kit Box 1 of 2 (stored at -20)
     * Thaw HT1 buffer on ice (or RT if impatient, then move to ice)
     * Copy the serial number from the reagent cartridge (MS#######-#00V#)
-    * Thaw reagent cartridge in a room temperature water bath (30 min -1 hr)
+    * Thaw reagent cartridge in a room temperature water bath (~1 hr)
     * Once completely thawed, store at 4C until loading
 
-4. Pool, denature, and dilute libraries (+PhiX control)
+4. Pool, denature, and dilute libraries
     * Prepare a fresh dilution of 0.2 N NaOH by mixing
         * 200 uL 1.0 N NaOH
         * 800 uL nuclease free water
-    * Dilute samples to 3 nM and combine in the desired ratio (including PhiX)
-
-        ***Only include PhiX here if it has not already been denatured***
-
+    * Dilute samples to 2.0 nM and combine in the desired ratio
     * In a 1.7 mL tube, combine
-        * 5 uL 3 nM library
+        * 5 uL 2.0 nM library
         * 5 uL 0.2 N NaOH
     * Briefly vortex and quick spin down (280 x g for 1 min)
     * Incubate at room temp for at least 5 min
     * Add 990 uL chilled HT1
     * Sample library is at 10 pM in HT1 with 1mM NaOH
-        * IF higher loading concentration is desired, combine samples at 4 nM and dilute accordingly
-        * 8-10 pM recommended for V2 kits
-        * 15-20 pM recommended for V3 kits
 
 5. Clean flow cell
     * Remove flow cell from MiSeq Reagent Kit Box 2 of 2 (4 C), handle by the edges
     * Wash flow cell with water
-    * Carefully clean glass surface with lens paper wet with 100% EtOH
+    * Carefully clean glass surface with lens paper
     * Repeat until surface is free of smudges
     * Wrap in lens paper until needed
 
@@ -913,20 +946,14 @@ Normalized DNA sequencing libraries are pooled, denatured, diluted, loaded into 
     * Load wash tray, wash bottle, and waste bottle
     * Start post-run wash
 
-## Notes
-
 ### Sample details:
 
-* Samples pooled at 2.0 nM -> 10 pM
-* Cluster density: 1130
+* Final library concentration should be ~10 pM
+* Cluster density should be ~1000-1200
 
 ### Kit details: 
-    
-MiSeq Reagent Kit v3 600
 
-| Box |   Ref    |    Lot    |    Exp     |
-| :-: | :------: | :-------: | :--------: |
-|  1  | 15043893 | 20733114  | 2024/01/24 |
-|  2  | 15043894 | 207436558 | 2024/03/14 |
-
-
+| Box | Ref | Lot | Exp |
+| :-: | :-: | :-: | :-: |
+|  1  |     |     |     |
+|  2  |     |     |     |
