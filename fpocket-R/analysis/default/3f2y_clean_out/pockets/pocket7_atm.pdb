@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0444
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0983
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6028
+HEADER 5  - Mean B-factor of pocket residues  : 0.2972
+HEADER 6  - Hydrophobicity Score              : -11.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 270.5437
+HEADER 10  -Pocket volume (convex hull)       : 2.8012
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   2005  O4' G   X  97      36.357  25.299  15.795  0.89  2.14           O 0
+ATOM   1989  O2' U   X  96      39.336  25.686  13.725  0.00  0.00           O 0
+ATOM   1993   O2 U   X  96      38.846  28.442  16.320  0.63  2.14           O 0
+ATOM   1816  O2' G   X  88      43.622  26.481  19.379  0.00  0.00           O 0
+ATOM   1817  C1' G   X  88      41.813  27.872  20.185  0.00  0.00           C 0
+ATOM   1797   C2 A   X  87      37.923  28.964  19.328  0.00  0.00           C 0
+ATOM   2010  C1' G   X  97      35.661  25.724  16.953  0.00  0.00           C 0
+ATOM   2013   N2 G   X  97      34.341  28.493  21.261  0.28  2.19           N 0
+ATOM   2028  O4' G   X  98      31.816  23.562  19.769  0.00  0.00           O 0
+ATOM   2009  O2' G   X  97      34.584  23.983  18.209  0.00  0.00           O 0
+ATOM   1794  O2' A   X  87      38.678  26.532  24.040  0.00  0.00           O 0
+ATOM   1812  O4' G   X  88      41.378  27.380  21.442  0.00  0.00           O 0
+ATOM   1798   N3 A   X  87      37.785  28.581  20.598  0.58  1.09           N 0
+ATOM   2014   N3 G   X  97      34.855  27.640  19.182  0.00  0.00           N 0
+TER
+END

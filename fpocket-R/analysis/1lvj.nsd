@@ -1,0 +1,58 @@
+[
+  { Version:"1.0" Title:"1lvj" }
+  {
+    Title:"1lvj"
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:g X:38.3 Y:299.8 }
+          { ID:2 Base:G X:38.3 Y:282.2 }
+          { ID:3 Base:C X:38.3 Y:264.6 }
+          { ID:4 Base:C X:38.3 Y:247.0 }
+          { ID:5 Base:A X:38.3 Y:229.4 }
+          { ID:6 Base:G X:38.3 Y:211.8 }
+          { ID:7 Base:A X:38.3 Y:194.2 }
+          { ID:8 Base:U X:25.5 Y:178.9 }
+          { ID:9 Base:C X:20.3 Y:161.0 }
+          { ID:10 Base:U X:25.5 Y:143.0 NumOffset:-0.52793604 }
+          { ID:11 Base:G X:38.3 Y:127.7 }
+          { ID:12 Base:A X:38.3 Y:110.1 }
+          { ID:13 Base:G X:38.3 Y:92.5 }
+          { ID:14 Base:C X:38.3 Y:74.9 }
+          { ID:15 Base:C X:26.9 Y:58.9 }
+          { ID:16 Base:U X:29.1 Y:39.4 }
+          { ID:17 Base:G X:43.7 Y:26.3 }
+          { ID:18 Base:G X:63.3 Y:26.3 }
+          { ID:19 Base:G X:77.9 Y:39.4 }
+          { ID:20 Base:A X:80.1 Y:58.9 NumOffset:-0.2533691 }
+          { ID:21 Base:G X:68.7 Y:74.9 }
+          { ID:22 Base:C X:68.7 Y:92.5 }
+          { ID:23 Base:U X:68.7 Y:110.1 }
+          { ID:24 Base:C X:68.7 Y:127.7 }
+          { ID:25 Base:U X:68.7 Y:194.2 }
+          { ID:26 Base:C X:68.7 Y:211.8 }
+          { ID:27 Base:U X:68.7 Y:229.4 }
+          { ID:28 Base:G X:68.7 Y:247.0 }
+          { ID:29 Base:G X:68.7 Y:264.6 }
+          { ID:30 Base:C X:68.7 Y:282.2 }
+          { ID:31 Base:C X:68.7 Y:299.8 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:31" Type:BP }
+      { Pair:"2:30" Type:BP }
+      { Pair:"3:29" Type:BP }
+      { Pair:"4:28" Type:BP }
+      { Pair:"5:27" Type:BP }
+      { Pair:"6:26" Type:BP }
+      { Pair:"7:25" Type:BP }
+      { Pair:"11:24" Type:BP }
+      { Pair:"12:23" Type:BP }
+      { Pair:"13:22" Type:BP }
+      { Pair:"14:21" Type:BP }
+    ]
+  }
+]

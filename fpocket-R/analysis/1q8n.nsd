@@ -1,0 +1,67 @@
+[
+  { Version:"1.0" Title:Untitled }
+  {
+    Title:""
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:G HNum:1 X:109.0 Y:414.0 Bond:"#888888" }
+          { ID:2 Base:G HNum:2 X:109.0 Y:396.0 Bond:"#888888" }
+          { ID:3 Base:A HNum:3 X:109.0 Y:378.0 Bond:"#888888" }
+          { ID:4 Base:U HNum:4 X:109.0 Y:360.0 Bond:"#888888" }
+          { ID:5 Base:C HNum:5 X:109.0 Y:342.0 Bond:"#888888" }
+          { ID:6 Base:C HNum:6 X:109.0 Y:324.0 Bond:"#888888" }
+          { ID:7 Base:C HNum:7 X:95.0 Y:291.9 Bond:"#888888" }
+          { ID:8 Base:G HNum:8 X:82.6 Y:279.6 Bond:"#888888" }
+          { ID:9 Base:A HNum:9 X:59.2 Y:275.6 Bond:"#888888" }
+          { ID:10 Base:C HNum:10 X:39.8 Y:262.0 Bond:"#888888" NumOffset:-0.015001295 }
+          { ID:11 Base:U HNum:11 X:22.8 Y:262.0 Bond:"#888888" }
+          { ID:12 Base:G HNum:12 X:5.8 Y:262.0 Bond:"#888888" }
+          { ID:13 Base:G HNum:13 X:-11.2 Y:261.9 Bond:"#888888" }
+          { ID:14 Base:C HNum:14 X:-28.2 Y:262.0 Bond:"#888888" }
+          { ID:15 Base:G HNum:15 X:-46.7 Y:267.9 Bond:"#888888" }
+          { ID:16 Base:A HNum:16 X:-62.3 Y:256.5 Bond:"#888888" }
+          { ID:17 Base:G HNum:17 X:-62.4 Y:237.2 Bond:"#888888" }
+          { ID:18 Base:A HNum:18 X:-46.9 Y:225.6 Bond:"#888888" }
+          { ID:19 Base:G HNum:19 X:-28.4 Y:231.3 Bond:"#888888" }
+          { ID:20 Base:C HNum:20 X:-11.4 Y:231.2 Bond:"#888888" }
+          { ID:21 Base:C HNum:21 X:5.6 Y:231.2 Bond:"#888888" }
+          { ID:22 Base:A HNum:22 X:22.6 Y:231.2 Bond:"#888888" }
+          { ID:23 Base:G HNum:23 X:39.6 Y:231.2 Bond:"#888888" }
+          { ID:24 Base:G HNum:24 X:56.0 Y:218.8 Bond:"#888888" }
+          { ID:25 Base:U HNum:25 X:74.2 Y:215.0 Bond:"#888888" }
+          { ID:26 Base:A HNum:26 X:91.3 Y:222.0 Bond:"#888888" }
+          { ID:27 Base:A HNum:27 X:101.5 Y:237.6 Bond:"#888888" }
+          { ID:28 Base:C HNum:28 X:104.4 Y:257.9 Bond:"#888888" }
+          { ID:29 Base:G HNum:29 X:116.8 Y:270.2 Bond:"#888888" }
+          { ID:30 Base:A HNum:30 X:134.4 Y:275.0 Bond:"#888888" NumOffset:-0.5301415 }
+          { ID:31 Base:A HNum:31 X:147.9 Y:288.4 Bond:"#888888" }
+          { ID:32 Base:U HNum:32 X:148.4 Y:307.4 Bond:"#888888" }
+          { ID:33 Base:G HNum:33 X:140.0 Y:324.0 Bond:"#888888" }
+          { ID:34 Base:G HNum:34 X:140.0 Y:342.0 Bond:"#888888" }
+          { ID:35 Base:A HNum:35 X:140.0 Y:360.0 Bond:"#888888" }
+          { ID:36 Base:U HNum:36 X:140.0 Y:378.0 Bond:"#888888" }
+          { ID:37 Base:C HNum:37 X:140.0 Y:396.0 Bond:"#888888" }
+          { ID:38 Base:C HNum:38 X:140.0 Y:414.0 Bond:"#888888" }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:38" Type:BP }
+      { Pair:"2:37" Type:BP }
+      { Pair:"3:36" Type:BP }
+      { Pair:"4:35" Type:BP }
+      { Pair:"5:34" Type:BP }
+      { Pair:"6:33" Type:BP }
+      { Pair:"7:29" Type:BP }
+      { Pair:"8:28" Type:BP }
+      { Pair:"10:23" Type:BP }
+      { Pair:"11:22" Type:BP }
+      { Pair:"12:21" Type:BP }
+      { Pair:"13:20" Type:BP }
+      { Pair:"14:19" Type:BP }
+    ]
+  }
+]

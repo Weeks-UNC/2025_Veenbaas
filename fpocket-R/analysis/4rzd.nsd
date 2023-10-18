@@ -1,0 +1,146 @@
+[
+  { Version:"1.0" Title:Untitled }
+  {
+    Title:""
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:A HNum:2 X:123.6 Y:166.7 NumOffset:0.017880552 }
+          { ID:2 Base:G HNum:3 X:123.4 Y:190.6 }
+          { ID:3 Base:C HNum:4 X:123.4 Y:218.0 }
+          { ID:4 Base:A HNum:5 X:123.4 Y:244.6 }
+          { ID:5 Base:A HNum:6 X:123.4 Y:268.0 }
+          { ID:6 Base:C HNum:7 X:123.4 Y:300.3 }
+          { ID:7 Base:U HNum:8 X:123.4 Y:327.7 }
+          { ID:8 Base:U HNum:9 X:123.4 Y:355.1 }
+          { ID:9 Base:A HNum:10 X:123.9 Y:384.2 NumOffset:-3.0445578 }
+          { ID:10 Base:G HNum:11 X:224.7 Y:384.8 NumOffset:0.6329677 }
+          { ID:11 Base:G HNum:12 X:224.7 Y:367.2 }
+          { ID:12 Base:A HNum:13 X:224.7 Y:349.6 }
+          { ID:13 Base:U HNum:14 X:224.7 Y:332.0 }
+          { ID:14 Base:U HNum:15 X:224.7 Y:314.4 }
+          { ID:15 Base:U HNum:16 X:224.7 Y:296.8 }
+          { ID:16 Base:U HNum:17 X:200.4 Y:286.2 }
+          { ID:17 Base:A HNum:18 X:179.3 Y:268.5 }
+          { ID:18 Base:G HNum:19 X:165.5 Y:244.7 }
+          { ID:19 Base:G HNum:20 X:160.7 Y:217.6 }
+          { ID:20 Base:C HNum:21 X:165.5 Y:190.5 NumOffset:-0.005999402 }
+          { ID:21 Base:U HNum:22 X:179.3 Y:166.6 }
+          { ID:22 Base:C HNum:23 X:200.4 Y:148.9 }
+          { ID:23 Base:C HNum:24 X:224.7 Y:138.4 }
+          { ID:24 Base:C HNum:25 X:224.7 Y:120.8 }
+          { ID:25 Base:C HNum:26 X:224.7 Y:103.2 }
+          { ID:26 Base:G HNum:27 X:224.7 Y:85.6 }
+          { ID:27 Base:G HNum:28 X:224.7 Y:68.0 }
+          { ID:28 Base:C HNum:29 X:224.7 Y:50.4 }
+          { ID:29 Base:G HNum:30 X:224.7 Y:32.8 }
+          { ID:30 Base:U HNum:31 X:224.7 Y:15.2 }
+          { ID:31 Base:G HNum:32 X:224.7 Y:-2.4 }
+          { ID:32 Base:U HNum:33 X:210.4 Y:-16.1 }
+          { ID:33 Base:C HNum:36 X:206.3 Y:-35.4 }
+          { ID:34 Base:U X:213.7 Y:-53.7 }
+          { ID:35 Base:C X:230.0 Y:-64.8 }
+          { ID:36 Base:G HNum:37 X:249.8 Y:-64.8 }
+          { ID:37 Base:A HNum:38 X:266.1 Y:-53.7 }
+          { ID:38 Base:A HNum:39 X:273.5 Y:-35.4 }
+          { ID:39 Base:C HNum:40 X:269.4 Y:-16.1 NumOffset:-0.52418417 }
+          { ID:40 Base:C HNum:41 X:255.1 Y:-2.4 }
+          { ID:41 Base:A HNum:42 X:255.1 Y:15.2 }
+          { ID:42 Base:U HNum:43 X:255.1 Y:32.8 }
+          { ID:43 Base:G HNum:44 X:255.1 Y:50.4 }
+          { ID:44 Base:C HNum:45 X:255.1 Y:68.0 }
+          { ID:45 Base:C HNum:46 X:255.1 Y:85.6 }
+          { ID:46 Base:G HNum:47 X:255.1 Y:103.2 }
+          { ID:47 Base:G HNum:48 X:255.1 Y:120.8 }
+          { ID:48 Base:G HNum:49 X:255.1 Y:138.4 }
+          { ID:49 Base:C HNum:50 X:272.1 Y:145.2 NumOffset:0.15103483 }
+          { ID:50 Base:C HNum:51 X:288.7 Y:155.2 }
+          { ID:51 Base:A HNum:52 X:302.3 Y:168.8 }
+          { ID:52 Base:A HNum:53 X:312.3 Y:185.5 NumOffset:0.47947374 }
+          { ID:53 Base:A HNum:54 X:319.1 Y:202.4 }
+          { ID:54 Base:C HNum:55 X:336.7 Y:202.4 }
+          { ID:55 Base:C HNum:56 X:354.3 Y:202.4 }
+          { ID:56 Base:C HNum:57 X:376.3 Y:193.3 }
+          { ID:57 Base:A HNum:58 X:388.7 Y:180.8 }
+          { ID:58 Base:U HNum:59 X:401.1 Y:168.4 }
+          { ID:59 Base:A HNum:60 X:413.6 Y:156.0 }
+          { ID:60 Base:G HNum:61 X:426.0 Y:143.5 }
+          { ID:61 Base:G HNum:62 X:438.5 Y:131.1 }
+          { ID:62 Base:G HNum:63 X:450.9 Y:118.6 NumOffset:-0.039307587 }
+          { ID:63 Base:C HNum:64 X:450.5 Y:98.9 }
+          { ID:64 Base:U HNum:65 X:461.2 Y:82.3 }
+          { ID:65 Base:G HNum:66 X:479.4 Y:74.5 }
+          { ID:66 Base:G HNum:67 X:498.8 Y:78.3 }
+          { ID:67 Base:C HNum:68 X:512.8 Y:92.2 }
+          { ID:68 Base:G HNum:69 X:516.5 Y:111.6 }
+          { ID:69 Base:G HNum:70 X:508.8 Y:129.8 }
+          { ID:70 Base:U HNum:71 X:492.2 Y:140.5 }
+          { ID:71 Base:C HNum:72 X:472.4 Y:140.1 }
+          { ID:72 Base:C HNum:73 X:460.0 Y:152.6 NumOffset:-0.042382628 }
+          { ID:73 Base:C HNum:74 X:447.5 Y:165.0 }
+          { ID:74 Base:U HNum:75 X:435.1 Y:177.4 }
+          { ID:75 Base:G HNum:76 X:422.6 Y:189.9 }
+          { ID:76 Base:U HNum:77 X:410.2 Y:202.3 }
+          { ID:77 Base:G HNum:78 X:397.7 Y:214.8 }
+          { ID:78 Base:C HNum:79 X:380.8 Y:235.3 }
+          { ID:79 Base:G HNum:80 X:354.3 Y:232.8 }
+          { ID:80 Base:G HNum:81 X:336.7 Y:232.8 }
+          { ID:81 Base:U HNum:82 X:319.1 Y:232.8 }
+          { ID:82 Base:C HNum:83 X:306.1 Y:261.0 NumOffset:-0.6245399 }
+          { ID:83 Base:A HNum:84 X:283.4 Y:283.8 }
+          { ID:84 Base:A HNum:85 X:255.1 Y:296.8 }
+          { ID:85 Base:A HNum:86 X:255.1 Y:314.4 }
+          { ID:86 Base:A HNum:87 X:255.1 Y:332.0 }
+          { ID:87 Base:U HNum:88 X:255.1 Y:349.6 }
+          { ID:88 Base:U HNum:89 X:255.1 Y:367.2 }
+          { ID:89 Base:C HNum:90 X:255.1 Y:384.8 NumOffset:-0.8024063 }
+          { ID:90 Base:A HNum:91 X:272.9 Y:384.8 }
+          { ID:91 Base:U HNum:92 X:290.7 Y:384.9 }
+          { ID:92 Base:C HNum:93 X:308.5 Y:384.9 NumOffset:-3.1358693 }
+          { ID:93 Base:C HNum:94 X:326.3 Y:385.0 }
+          { ID:94 Base:G HNum:95 X:344.1 Y:385.0 }
+          { ID:95 Base:C HNum:96 X:361.9 Y:385.0 }
+          { ID:96 Base:C HNum:97 X:379.7 Y:385.1 }
+          { ID:97 Base:G HNum:98 X:397.5 Y:385.1 }
+          { ID:98 Base:G HNum:99 X:415.3 Y:385.2 }
+          { ID:99 Base:A HNum:100 X:433.1 Y:385.2 NumOffset:-3.1170018 }
+          { ID:100 Base:G HNum:101 X:450.9 Y:384.7 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:21" Type:PK }
+      { Pair:"2:20" Type:PK }
+      { Pair:"3:19" Type:PK }
+      { Pair:"4:18" Type:PK }
+      { Pair:"5:17" Type:PK }
+      { Pair:"10:89" Type:BP }
+      { Pair:"11:88" Type:BP }
+      { Pair:"12:87" Type:BP }
+      { Pair:"13:86" Type:BP }
+      { Pair:"14:85" Type:BP }
+      { Pair:"15:84" Type:BP }
+      { Pair:"23:48" Type:BP }
+      { Pair:"24:47" Type:BP }
+      { Pair:"25:46" Type:BP }
+      { Pair:"26:45" Type:BP }
+      { Pair:"27:44" Type:BP }
+      { Pair:"28:43" Type:BP }
+      { Pair:"29:42" Type:BP }
+      { Pair:"30:41" Type:BP }
+      { Pair:"31:40" Type:BP }
+      { Pair:"53:81" Type:BP }
+      { Pair:"54:80" Type:BP }
+      { Pair:"55:79" Type:BP }
+      { Pair:"56:77" Type:BP }
+      { Pair:"57:76" Type:BP }
+      { Pair:"58:75" Type:BP }
+      { Pair:"59:74" Type:BP }
+      { Pair:"60:73" Type:BP }
+      { Pair:"61:72" Type:BP }
+      { Pair:"62:71" Type:BP }
+    ]
+  }
+]

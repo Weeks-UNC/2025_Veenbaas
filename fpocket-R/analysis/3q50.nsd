@@ -1,0 +1,57 @@
+[
+  { Version:"1.0" Title:"3q50" }
+  {
+    Title:"3q50"
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:c X:147.8 Y:134.0 }
+          { ID:2 Base:U X:147.9 Y:116.4 }
+          { ID:3 Base:G X:148.0 Y:98.8 }
+          { ID:4 Base:G X:148.1 Y:81.2 }
+          { ID:5 Base:G X:148.8 Y:45.3 }
+          { ID:6 Base:U X:148.7 Y:-4.1 }
+          { ID:7 Base:C X:148.5 Y:-53.5 }
+          { ID:8 Base:G X:148.4 Y:-102.9 }
+          { ID:9 Base:C X:179.2 Y:-102.5 }
+          { ID:10 Base:A X:179.2 Y:-85.1 }
+          { ID:11 Base:G X:179.4 Y:-59.6 }
+          { ID:12 Base:U X:179.4 Y:-42.1 }
+          { ID:13 Base:A X:179.4 Y:-24.7 }
+          { ID:14 Base:A X:179.4 Y:-7.2 }
+          { ID:15 Base:C X:179.4 Y:10.2 }
+          { ID:16 Base:C X:179.2 Y:45.4 }
+          { ID:17 Base:C X:178.5 Y:81.4 }
+          { ID:18 Base:C X:178.4 Y:99.0 }
+          { ID:19 Base:A X:178.3 Y:116.6 }
+          { ID:20 Base:G X:178.2 Y:134.2 NumOffset:1.5531644 }
+          { ID:21 Base:U X:197.6 Y:147.3 }
+          { ID:22 Base:U X:216.4 Y:137.1 }
+          { ID:23 Base:A X:210.1 Y:116.0 }
+          { ID:24 Base:A X:210.2 Y:98.4 }
+          { ID:25 Base:C X:210.3 Y:80.8 }
+          { ID:26 Base:A X:210.2 Y:63.5 }
+          { ID:27 Base:A X:210.3 Y:45.9 }
+          { ID:28 Base:A X:210.2 Y:28.2 }
+          { ID:29 Base:A X:210.2 Y:10.3 }
+          { ID:30 Base:C X:210.8 Y:-59.6 NumOffset:0.4013984 }
+          { ID:31 Base:A X:224.6 Y:-72.1 }
+          { ID:32 Base:A X:210.8 Y:-84.9 }
+          { ID:33 Base:G X:210.7 Y:-102.4 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:20" Type:BP }
+      { Pair:"2:19" Type:BP }
+      { Pair:"3:18" Type:BP }
+      { Pair:"4:17" Type:BP }
+      { Pair:"5:16" Type:BP }
+      { Pair:"9:33" Type:PK }
+      { Pair:"10:32" Type:PK }
+      { Pair:"11:30" Type:PK }
+    ]
+  }
+]

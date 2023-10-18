@@ -1,0 +1,66 @@
+[
+  { Version:"1.0" Title:"6up0" }
+  {
+    Title:"6up0"
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:g X:124.2 Y:329.7 }
+          { ID:2 Base:C X:124.2 Y:312.1 }
+          { ID:3 Base:U X:124.2 Y:294.5 }
+          { ID:4 Base:A X:124.2 Y:276.9 }
+          { ID:5 Base:C X:124.2 Y:259.3 }
+          { ID:6 Base:G X:124.2 Y:241.7 }
+          { ID:7 Base:A X:124.2 Y:224.1 }
+          { ID:8 Base:A X:124.2 Y:206.5 }
+          { ID:9 Base:G X:105.2 Y:200.2 }
+          { ID:10 Base:G X:88.5 Y:189.3 }
+          { ID:11 Base:A X:75.2 Y:174.4 }
+          { ID:12 Base:A X:66.0 Y:156.7 }
+          { ID:13 Base:G X:61.6 Y:137.3 }
+          { ID:14 Base:G X:62.2 Y:117.3 }
+          { ID:15 Base:A X:68.0 Y:98.2 }
+          { ID:16 Base:U X:78.3 Y:81.1 }
+          { ID:17 Base:U X:92.7 Y:67.2 }
+          { ID:18 Base:G X:110.1 Y:57.5 }
+          { ID:19 Base:G X:129.4 Y:52.4 }
+          { ID:20 Base:U X:149.3 Y:52.4 }
+          { ID:21 Base:A X:168.7 Y:57.5 }
+          { ID:22 Base:U X:186.1 Y:67.2 }
+          { ID:23 Base:G X:200.4 Y:81.1 }
+          { ID:24 Base:U X:210.8 Y:98.2 }
+          { ID:25 Base:G X:216.5 Y:117.3 }
+          { ID:26 Base:G X:217.2 Y:137.3 }
+          { ID:27 Base:U X:212.8 Y:156.7 }
+          { ID:28 Base:A X:203.6 Y:174.4 }
+          { ID:29 Base:U X:190.2 Y:189.3 }
+          { ID:30 Base:A X:173.5 Y:200.2 }
+          { ID:31 Base:U X:154.6 Y:206.5 }
+          { ID:32 Base:U X:154.6 Y:224.1 }
+          { ID:33 Base:C X:154.6 Y:241.7 }
+          { ID:34 Base:G X:154.6 Y:259.3 }
+          { ID:35 Base:U X:154.6 Y:276.9 }
+          { ID:36 Base:A X:154.6 Y:294.5 }
+          { ID:37 Base:G X:154.6 Y:312.1 }
+          { ID:38 Base:C X:154.6 Y:329.7 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:38" Type:BP }
+      { Pair:"2:37" Type:BP }
+      { Pair:"3:36" Type:BP }
+      { Pair:"4:35" Type:BP }
+      { Pair:"5:34" Type:BP }
+      { Pair:"6:33" Type:BP }
+      { Pair:"7:32" Type:BP }
+      { Pair:"8:31" Type:BP }
+      { Pair:"9:13" Type:PK }
+      { Pair:"10:14" Type:BP }
+      { Pair:"18:25" Type:PK }
+      { Pair:"19:26" Type:BP }
+    ]
+  }
+]

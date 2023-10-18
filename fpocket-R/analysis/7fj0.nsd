@@ -1,0 +1,43 @@
+[
+  { Version:"1.0" Title:"7fj0" }
+  {
+    Title:"7fj0"
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:g X:38.3 Y:205.4 }
+          { ID:2 Base:G X:38.3 Y:187.8 }
+          { ID:3 Base:A X:38.3 Y:170.2 }
+          { ID:4 Base:U X:38.3 Y:152.6 }
+          { ID:5 Base:G X:38.3 Y:114.3 }
+          { ID:6 Base:C X:38.3 Y:96.7 }
+          { ID:7 Base:U X:38.3 Y:79.1 }
+          { ID:8 Base:U X:29.2 Y:61.9 }
+          { ID:9 Base:A X:35.6 Y:43.4 }
+          { ID:10 Base:C X:53.5 Y:35.6 }
+          { ID:11 Base:U X:71.4 Y:43.4 }
+          { ID:12 Base:C X:77.8 Y:61.9 }
+          { ID:13 Base:A X:68.7 Y:79.1 }
+          { ID:14 Base:G X:68.7 Y:96.7 }
+          { ID:15 Base:C X:68.7 Y:114.3 }
+          { ID:16 Base:G X:72.6 Y:133.5 }
+          { ID:17 Base:A X:68.7 Y:152.6 }
+          { ID:18 Base:U X:68.7 Y:170.2 }
+          { ID:19 Base:C X:68.7 Y:187.8 }
+          { ID:20 Base:C X:68.7 Y:205.4 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:20" Type:BP }
+      { Pair:"2:19" Type:BP }
+      { Pair:"3:18" Type:BP }
+      { Pair:"4:17" Type:BP }
+      { Pair:"5:15" Type:BP }
+      { Pair:"6:14" Type:BP }
+      { Pair:"7:13" Type:BP }
+    ]
+  }
+]

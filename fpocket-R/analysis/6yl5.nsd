@@ -1,0 +1,63 @@
+[
+  { Version:"1.0" Title:Untitled }
+  {
+    Title:""
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:G X:200.9 Y:373.0 Bond:"#888888" }
+          { ID:2 Base:G X:200.9 Y:355.8 Bond:"#888888" }
+          { ID:3 Base:U X:200.9 Y:338.6 Bond:"#888888" }
+          { ID:4 Base:c X:200.9 Y:321.4 Bond:"#888888" }
+          { ID:5 Base:A X:200.9 Y:304.2 Bond:"#888888" }
+          { ID:6 Base:C X:200.9 Y:287.0 Bond:"#888888" }
+          { ID:7 Base:A X:182.4 Y:263.7 Bond:"#888888" }
+          { ID:8 Base:A X:182.8 Y:236.4 Bond:"#888888" }
+          { ID:9 Base:C X:200.8 Y:214.0 Bond:"#888888" }
+          { ID:10 Base:G X:201.0 Y:110.8 Bond:"#888888" NumOffset:-0.8050131 }
+          { ID:11 Base:G X:250.5 Y:110.6 Bond:"#888888" }
+          { ID:12 Base:C X:250.6 Y:127.3 Bond:"#888888" }
+          { ID:13 Base:U X:250.8 Y:144.0 Bond:"#888888" }
+          { ID:14 Base:U X:241.5 Y:160.6 Bond:"#888888" }
+          { ID:15 Base:C X:251.0 Y:177.3 Bond:"#888888" }
+          { ID:16 Base:C X:251.1 Y:194.0 Bond:"#888888" }
+          { ID:17 Base:U X:231.9 Y:194.0 Bond:"#888888" }
+          { ID:18 Base:G X:231.6 Y:214.0 Bond:"#888888" }
+          { ID:19 Base:G X:250.4 Y:236.9 Bond:"#888888" }
+          { ID:20 Base:C X:250.0 Y:265.0 Bond:"#888888" NumOffset:2.7988722 }
+          { ID:21 Base:G X:231.7 Y:287.1 Bond:"#888888" }
+          { ID:22 Base:U X:231.7 Y:304.3 Bond:"#888888" }
+          { ID:23 Base:G X:231.7 Y:321.5 Bond:"#888888" }
+          { ID:24 Base:A X:231.7 Y:338.7 Bond:"#888888" }
+          { ID:25 Base:C X:231.7 Y:355.9 Bond:"#888888" }
+          { ID:26 Base:C X:231.7 Y:373.1 Bond:"#888888" }
+          { ID:27 Base:A X:281.7 Y:373.4 }
+          { ID:28 Base:U X:281.8 Y:236.6 }
+          { ID:29 Base:U X:281.9 Y:214.2 }
+          { ID:30 Base:G X:281.8 Y:193.8 NumOffset:-0.0032633145 }
+          { ID:31 Base:G X:281.6 Y:177.3 }
+          { ID:32 Base:A X:281.5 Y:143.8 }
+          { ID:33 Base:G X:281.5 Y:127.3 }
+          { ID:34 Base:C X:281.4 Y:110.6 }
+          { ID:35 Base:A X:281.2 Y:91.7 Bond:"#888888" NumOffset:-3.1280835 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:26" Type:BP }
+      { Pair:"2:25" Type:BP }
+      { Pair:"3:24" Type:BP }
+      { Pair:"4:23" Type:BP }
+      { Pair:"5:22" Type:BP }
+      { Pair:"6:21" Type:BP }
+      { Pair:"9:18" Type:BP }
+      { Pair:"11:34" Type:PK }
+      { Pair:"12:33" Type:PK }
+      { Pair:"13:32" Type:PK }
+      { Pair:"15:31" Type:PK }
+      { Pair:"16:30" Type:PK }
+    ]
+  }
+]

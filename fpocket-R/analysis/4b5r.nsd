@@ -1,0 +1,143 @@
+[
+  { Version:"1.0" Title:Untitled }
+  {
+    Title:""
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:G HNum:1 X:63.0 Y:460.3 }
+          { ID:2 Base:G HNum:2 X:63.0 Y:442.7 }
+          { ID:3 Base:C HNum:3 X:63.0 Y:425.1 }
+          { ID:4 Base:U HNum:4 X:63.0 Y:407.5 }
+          { ID:5 Base:U HNum:5 X:63.0 Y:389.9 }
+          { ID:6 Base:A HNum:6 X:63.0 Y:372.3 }
+          { ID:7 Base:U HNum:7 X:63.0 Y:354.7 }
+          { ID:8 Base:C HNum:8 X:63.2 Y:337.1 }
+          { ID:9 Base:A HNum:9 X:63.2 Y:318.3 }
+          { ID:10 Base:A HNum:10 X:63.1 Y:299.4 NumOffset:3.1316485 }
+          { ID:11 Base:G HNum:11 X:63.1 Y:280.6 }
+          { ID:12 Base:A HNum:12 X:63.0 Y:261.8 }
+          { ID:13 Base:G HNum:13 X:63.0 Y:243.0 }
+          { ID:14 Base:A HNum:14 X:60.0 Y:223.5 }
+          { ID:15 Base:G HNum:15 X:64.3 Y:204.8 }
+          { ID:16 Base:G HNum:16 X:64.3 Y:187.2 }
+          { ID:17 Base:G HNum:17 X:64.3 Y:169.6 }
+          { ID:18 Base:G HNum:18 X:64.3 Y:152.0 }
+          { ID:19 Base:G HNum:19 X:64.3 Y:134.4 }
+          { ID:20 Base:A HNum:20 X:64.3 Y:116.8 }
+          { ID:21 Base:G HNum:21 X:64.3 Y:49.0 }
+          { ID:22 Base:C HNum:22 X:64.3 Y:31.4 }
+          { ID:23 Base:G HNum:23 X:64.3 Y:13.8 }
+          { ID:24 Base:A HNum:24 X:55.2 Y:-3.4 }
+          { ID:25 Base:C HNum:25 X:61.6 Y:-21.9 }
+          { ID:26 Base:U HNum:26 X:79.5 Y:-29.7 }
+          { ID:27 Base:G HNum:27 X:97.4 Y:-21.9 }
+          { ID:28 Base:G HNum:28 X:103.8 Y:-3.4 }
+          { ID:29 Base:C HNum:29 X:94.7 Y:13.8 }
+          { ID:30 Base:G HNum:30 X:94.7 Y:31.4 }
+          { ID:31 Base:C HNum:31 X:94.7 Y:49.0 }
+          { ID:32 Base:G HNum:32 X:108.5 Y:64.2 }
+          { ID:33 Base:A HNum:33 X:114.1 Y:82.9 }
+          { ID:34 Base:A HNum:34 X:108.5 Y:101.6 }
+          { ID:35 Base:G HNum:35 X:94.7 Y:116.8 }
+          { ID:36 Base:A HNum:36 X:94.7 Y:134.4 }
+          { ID:37 Base:A HNum:37 X:94.7 Y:152.0 }
+          { ID:38 Base:C HNum:38 X:94.7 Y:169.6 }
+          { ID:39 Base:C HNum:39 X:94.7 Y:187.2 }
+          { ID:40 Base:C HNum:40 X:94.7 Y:204.8 }
+          { ID:41 Base:C HNum:41 X:94.6 Y:243.2 }
+          { ID:42 Base:G HNum:42 X:157.9 Y:243.4 }
+          { ID:43 Base:G HNum:43 X:157.9 Y:261.0 }
+          { ID:44 Base:C HNum:44 X:157.9 Y:278.6 }
+          { ID:45 Base:A HNum:45 X:146.7 Y:296.9 }
+          { ID:46 Base:A HNum:46 X:146.7 Y:316.6 }
+          { ID:47 Base:C HNum:47 X:157.9 Y:334.9 }
+          { ID:48 Base:C HNum:48 X:157.9 Y:352.5 }
+          { ID:49 Base:A HNum:49 X:157.9 Y:370.1 }
+          { ID:50 Base:G HNum:50 X:152.0 Y:388.5 NumOffset:0.16225086 }
+          { ID:51 Base:A HNum:51 X:163.4 Y:404.1 }
+          { ID:52 Base:A HNum:52 X:182.7 Y:404.1 }
+          { ID:53 Base:A HNum:53 X:194.1 Y:388.5 }
+          { ID:54 Base:U HNum:54 X:188.3 Y:370.1 }
+          { ID:55 Base:G HNum:55 X:188.3 Y:352.5 }
+          { ID:56 Base:G HNum:56 X:188.3 Y:334.9 }
+          { ID:57 Base:U HNum:57 X:201.2 Y:306.7 }
+          { ID:58 Base:G HNum:58 X:188.3 Y:278.6 }
+          { ID:59 Base:C HNum:59 X:188.3 Y:261.0 }
+          { ID:60 Base:C HNum:60 X:188.3 Y:243.4 NumOffset:5.137761E-4 }
+          { ID:61 Base:A HNum:61 X:188.4 Y:187.4 }
+          { ID:62 Base:A HNum:62 X:188.6 Y:129.9 }
+          { ID:63 Base:U HNum:63 X:188.8 Y:72.4 }
+          { ID:64 Base:U HNum:64 X:189.0 Y:14.8 }
+          { ID:65 Base:C HNum:65 X:171.0 Y:-5.1 }
+          { ID:66 Base:C HNum:66 X:167.2 Y:-29.7 }
+          { ID:67 Base:U HNum:67 X:179.7 Y:-51.2 }
+          { ID:68 Base:G HNum:68 X:202.8 Y:-60.3 }
+          { ID:69 Base:C HNum:69 X:229.1 Y:-54.7 }
+          { ID:70 Base:A HNum:70 X:244.3 Y:-63.5 NumOffset:0.5306742 }
+          { ID:71 Base:G HNum:71 X:259.6 Y:-72.3 }
+          { ID:72 Base:C HNum:72 X:274.8 Y:-81.1 }
+          { ID:73 Base:G HNum:73 X:290.1 Y:-89.9 }
+          { ID:74 Base:G HNum:74 X:305.5 Y:-107.2 }
+          { ID:75 Base:A HNum:75 X:328.2 Y:-107.5 }
+          { ID:76 Base:A HNum:76 X:339.6 Y:-87.8 }
+          { ID:77 Base:A HNum:77 X:328.0 Y:-68.3 }
+          { ID:78 Base:C HNum:78 X:305.3 Y:-63.6 }
+          { ID:79 Base:G HNum:79 X:290.0 Y:-54.8 }
+          { ID:80 Base:U HNum:80 X:274.8 Y:-46.0 NumOffset:0.5040937 }
+          { ID:81 Base:U HNum:81 X:259.5 Y:-37.2 }
+          { ID:82 Base:G HNum:82 X:244.3 Y:-28.4 }
+          { ID:83 Base:A HNum:83 X:243.5 Y:-10.7 }
+          { ID:84 Base:A HNum:84 X:234.3 Y:5.4 }
+          { ID:85 Base:A HNum:85 X:219.4 Y:14.8 }
+          { ID:86 Base:G HNum:86 X:93.7 Y:337.0 }
+          { ID:87 Base:A HNum:87 X:93.4 Y:354.7 }
+          { ID:88 Base:U HNum:88 X:93.4 Y:372.3 }
+          { ID:89 Base:G HNum:89 X:93.4 Y:389.9 }
+          { ID:90 Base:A HNum:90 X:93.4 Y:407.5 }
+          { ID:91 Base:G HNum:91 X:93.4 Y:425.1 }
+          { ID:92 Base:C HNum:92 X:93.4 Y:442.7 }
+          { ID:93 Base:C HNum:93 X:93.4 Y:460.3 }
+          { ID:94 Base:G X:93.4 Y:480.3 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:93" Type:BP }
+      { Pair:"2:92" Type:BP }
+      { Pair:"3:91" Type:BP }
+      { Pair:"4:90" Type:BP }
+      { Pair:"5:89" Type:BP }
+      { Pair:"6:88" Type:BP }
+      { Pair:"7:87" Type:BP }
+      { Pair:"8:86" Type:BP }
+      { Pair:"13:41" Type:BP }
+      { Pair:"15:40" Type:BP }
+      { Pair:"16:39" Type:BP }
+      { Pair:"17:38" Type:BP }
+      { Pair:"18:37" Type:BP }
+      { Pair:"19:36" Type:BP }
+      { Pair:"20:35" Type:BP }
+      { Pair:"21:31" Type:BP }
+      { Pair:"22:30" Type:BP }
+      { Pair:"23:29" Type:BP }
+      { Pair:"25:68" Type:PK }
+      { Pair:"27:66" Type:PK }
+      { Pair:"28:65" Type:PK }
+      { Pair:"42:60" Type:BP }
+      { Pair:"43:59" Type:BP }
+      { Pair:"44:58" Type:BP }
+      { Pair:"47:56" Type:BP }
+      { Pair:"48:55" Type:BP }
+      { Pair:"49:54" Type:BP }
+      { Pair:"64:85" Type:BP }
+      { Pair:"69:82" Type:BP }
+      { Pair:"70:81" Type:BP }
+      { Pair:"71:80" Type:BP }
+      { Pair:"72:79" Type:BP }
+      { Pair:"73:78" Type:BP }
+    ]
+  }
+]

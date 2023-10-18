@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : -0.0030
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6028
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3405
+HEADER 5  - Mean B-factor of pocket residues  : 0.8216
+HEADER 6  - Hydrophobicity Score              : 2.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 2.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.9855
+HEADER 10  -Pocket volume (convex hull)       : 14.8982
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    126   C5 C   A   6      -2.702  24.069  26.625  0.00  0.00           C 0
+ATOM   1068  OP2 A   A  50      -5.639  24.667  20.579  0.59  4.29           O 1
+ATOM   1088  OP2 U   A  51      -7.534  22.048  24.745  0.50  7.50           O 1
+ATOM    129  OP2 C   A   6      -5.249  27.991  24.445  0.48  8.57           O 1
+ATOM   1085   C5 U   A  51      -3.183  20.245  24.788  0.00  0.00           C 0
+ATOM   1046  OP2 G   A  49      -2.031  26.337  17.433  0.50  9.64           O 1
+ATOM    117  C2' C   A   6       0.079  26.298  23.880  0.00  0.00           C 0
+ATOM    118  O2' C   A   6       1.095  25.434  23.407  0.00  0.00           O 0
+ATOM    112  O5' C   A   6      -2.784  28.430  24.391  0.76  1.07           O 0
+ATOM   1045  OP1 G   A  49      -3.256  28.545  17.275  0.70  9.64           O 0
+ATOM   1084   O4 U   A  51      -0.817  20.559  24.700  0.00  2.14           O 0
+ATOM   1064   N7 A   A  50      -3.334  20.878  21.019  0.00  0.00           N 0
+ATOM   1063   N6 A   A  50      -0.676  19.459  21.766  0.00  5.47           N 0
+ATOM   1042   N7 G   A  49      -1.961  21.607  17.672  0.00  0.00           N 0
+ATOM   1043   C8 G   A  49      -2.901  22.355  17.164  0.00  0.00           C 0
+ATOM    127   C6 C   A   6      -2.074  25.132  26.093  0.00  0.00           C 0
+ATOM   1065   C8 A   A  50      -4.624  20.895  20.768  0.00  0.00           C 0
+TER
+END

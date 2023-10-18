@@ -1,0 +1,92 @@
+[
+  { Version:"1.0" Title:null }
+  {
+    Title:""
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:G HNum:1 X:38.3 Y:648.2 }
+          { ID:2 Base:G HNum:2 X:38.3 Y:630.6 }
+          { ID:3 Base:C HNum:3 X:38.3 Y:613.0 }
+          { ID:4 Base:C HNum:4 X:38.3 Y:595.4 }
+          { ID:5 Base:G HNum:5 X:38.3 Y:577.8 }
+          { ID:6 Base:C HNum:6 X:25.1 Y:563.1 }
+          { ID:7 Base:U HNum:7 X:18.6 Y:542.9 }
+          { ID:8 Base:C HNum:8 X:25.1 Y:522.8 }
+          { ID:9 Base:C HNum:9 X:38.3 Y:508.1 }
+          { ID:10 Base:A HNum:10 X:38.3 Y:490.5 }
+          { ID:11 Base:G HNum:11 X:25.4 Y:476.0 }
+          { ID:12 Base:A HNum:12 X:19.0 Y:456.0 }
+          { ID:13 Base:A HNum:13 X:25.4 Y:436.0 }
+          { ID:14 Base:G HNum:14 X:38.3 Y:421.5 }
+          { ID:15 Base:A HNum:15 X:38.3 Y:403.9 }
+          { ID:16 Base:G HNum:16 X:38.3 Y:386.3 }
+          { ID:17 Base:G HNum:17 X:38.3 Y:313.4 }
+          { ID:18 Base:G HNum:18 X:38.3 Y:295.8 }
+          { ID:19 Base:C HNum:19 X:38.3 Y:278.2 }
+          { ID:20 Base:C HNum:20 X:38.3 Y:260.6 }
+          { ID:21 Base:C HNum:21 X:38.3 Y:243.0 }
+          { ID:22 Base:C HNum:22 X:38.3 Y:225.4 }
+          { ID:23 Base:C HNum:23 X:38.3 Y:207.8 }
+          { ID:24 Base:U HNum:24 X:27.6 Y:190.3 }
+          { ID:25 Base:U HNum:25 X:27.7 Y:169.3 }
+          { ID:26 Base:G HNum:26 X:38.3 Y:151.8 }
+          { ID:27 Base:C HNum:27 X:24.3 Y:137.8 }
+          { ID:28 Base:C HNum:28 X:20.5 Y:118.4 }
+          { ID:29 Base:C HNum:29 X:28.2 Y:100.2 }
+          { ID:30 Base:G HNum:30 X:44.7 Y:89.4 }
+          { ID:31 Base:U HNum:31 X:64.5 Y:89.6 }
+          { ID:32 Base:U HNum:32 X:80.7 Y:100.8 }
+          { ID:33 Base:A HNum:33 X:88.0 Y:119.2 }
+          { ID:34 Base:U HNum:34 X:83.7 Y:138.5 }
+          { ID:35 Base:C HNum:35 X:69.4 Y:152.2 }
+          { ID:36 Base:G HNum:36 X:68.7 Y:207.8 }
+          { ID:37 Base:G HNum:37 X:68.7 Y:225.4 }
+          { ID:38 Base:G HNum:38 X:68.7 Y:243.0 }
+          { ID:39 Base:G HNum:39 X:68.7 Y:260.6 }
+          { ID:40 Base:G HNum:40 X:68.7 Y:278.2 }
+          { ID:41 Base:C HNum:41 X:68.7 Y:295.8 }
+          { ID:42 Base:U HNum:42 X:68.7 Y:313.4 }
+          { ID:43 Base:A HNum:43 X:82.9 Y:328.2 }
+          { ID:44 Base:G HNum:44 X:90.0 Y:349.8 }
+          { ID:45 Base:G HNum:45 X:82.9 Y:371.4 }
+          { ID:46 Base:C HNum:46 X:68.7 Y:386.3 }
+          { ID:47 Base:U HNum:47 X:68.7 Y:403.9 }
+          { ID:48 Base:C HNum:48 X:68.7 Y:421.5 }
+          { ID:49 Base:G HNum:49 X:85.1 Y:442.1 }
+          { ID:50 Base:A HNum:50 X:85.1 Y:469.8 }
+          { ID:51 Base:U HNum:51 X:68.7 Y:490.5 }
+          { ID:52 Base:G HNum:52 X:68.7 Y:508.1 }
+          { ID:53 Base:U HNum:53 X:68.7 Y:542.9 }
+          { ID:54 Base:C HNum:54 X:68.7 Y:577.8 }
+          { ID:55 Base:G HNum:55 X:68.7 Y:595.4 }
+          { ID:56 Base:G HNum:56 X:68.7 Y:613.0 }
+          { ID:57 Base:C HNum:57 X:68.7 Y:630.6 }
+          { ID:58 Base:C HNum:58 X:68.7 Y:648.2 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:58" Type:BP }
+      { Pair:"2:57" Type:BP }
+      { Pair:"3:56" Type:BP }
+      { Pair:"4:55" Type:BP }
+      { Pair:"5:54" Type:BP }
+      { Pair:"9:52" Type:BP }
+      { Pair:"10:51" Type:BP }
+      { Pair:"14:48" Type:BP }
+      { Pair:"15:47" Type:BP }
+      { Pair:"16:46" Type:BP }
+      { Pair:"17:42" Type:BP }
+      { Pair:"18:41" Type:BP }
+      { Pair:"19:40" Type:BP }
+      { Pair:"20:39" Type:BP }
+      { Pair:"21:38" Type:BP }
+      { Pair:"22:37" Type:BP }
+      { Pair:"23:36" Type:BP }
+      { Pair:"26:35" Type:BP }
+    ]
+  }
+]

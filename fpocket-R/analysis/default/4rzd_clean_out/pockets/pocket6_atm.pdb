@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0248
+HEADER 1  - Drug Score                        : 0.0147
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8675
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7047
+HEADER 5  - Mean B-factor of pocket residues  : 0.5288
+HEADER 6  - Hydrophobicity Score              : -19.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.3186
+HEADER 10  -Pocket volume (convex hull)       : 0.8965
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   3160  C1' G   A 101      75.382  29.579  96.473  0.00  0.00           C 0
+ATOM   3126  O2' A   A 100      75.143  32.520  93.094  0.00  0.00           O 0
+ATOM   3159  O2' G   A 101      76.105  30.480  98.573  0.00  0.00           O 0
+ATOM   3155  O4' G   A 101      76.231  30.054  95.448  0.00  0.00           O 0
+ATOM   3154  C4' G   A 101      77.570  30.240  95.971  0.00  0.00           C 0
+ATOM   3163   N2 G   A 101      70.701  28.404  98.537  0.00  0.00           N 0
+ATOM   3164   N3 G   A 101      72.708  28.562  97.407  0.74  3.28           N 0
+ATOM   3128   N1 A   A 100      68.439  31.617  93.863  0.00  0.00           N 0
+ATOM   3129   C2 A   A 100      69.291  32.516  93.360  0.00  0.00           C 0
+ATOM   3125  C2' A   A 100      74.534  31.237  93.101  0.00  0.00           C 0
+ATOM   3130   N3 A   A 100      70.546  32.347  92.950  0.67  3.28           N 0
+ATOM   3131   C4 A   A 100      70.927  31.066  93.094  0.00  0.00           C 0
+ATOM   3137   N9 A   A 100      72.151  30.525  92.782  0.00  0.00           N 0
+ATOM   3132   C5 A   A 100      70.165  30.028  93.597  0.00  0.00           C 0
+ATOM   3133   C6 A   A 100      68.851  30.338  93.997  0.00  0.00           C 0
+ATOM   3134   N6 A   A 100      67.991  29.450  94.501  0.33  7.66           N 0
+TER
+END

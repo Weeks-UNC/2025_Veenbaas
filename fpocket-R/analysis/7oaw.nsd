@@ -1,0 +1,84 @@
+[
+  { Version:"1.0" Title:"7oaw" }
+  {
+    Title:"7oaw"
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:G X:60.3 Y:627.6 }
+          { ID:2 Base:G X:60.3 Y:610.0 }
+          { ID:3 Base:C X:60.3 Y:592.4 }
+          { ID:4 Base:U X:60.3 Y:574.8 }
+          { ID:5 Base:A X:60.3 Y:557.2 }
+          { ID:6 Base:G X:60.3 Y:539.6 }
+          { ID:7 Base:C X:60.3 Y:522.0 }
+          { ID:8 Base:U X:60.3 Y:504.4 }
+          { ID:9 Base:G X:56.4 Y:485.3 }
+          { ID:10 Base:G X:60.3 Y:466.1 }
+          { ID:11 Base:A X:44.9 Y:452.4 }
+          { ID:12 Base:G X:35.7 Y:435.0 }
+          { ID:13 Base:G X:35.7 Y:415.2 }
+          { ID:14 Base:G X:44.9 Y:397.8 }
+          { ID:15 Base:G X:60.3 Y:384.1 }
+          { ID:16 Base:C X:60.3 Y:366.5 }
+          { ID:17 Base:G X:60.3 Y:232.8 }
+          { ID:18 Base:C X:60.3 Y:215.2 }
+          { ID:19 Base:C X:60.3 Y:197.6 }
+          { ID:20 Base:A X:60.3 Y:180.0 }
+          { ID:21 Base:G X:60.3 Y:162.4 }
+          { ID:22 Base:U X:53.5 Y:140.8 }
+          { ID:23 Base:U X:64.4 Y:121.4 }
+          { ID:24 Base:C X:86.6 Y:121.4 }
+          { ID:25 Base:G X:97.5 Y:140.8 }
+          { ID:26 Base:C X:90.7 Y:162.4 }
+          { ID:27 Base:U X:90.7 Y:180.0 }
+          { ID:28 Base:G X:90.7 Y:197.6 }
+          { ID:29 Base:G X:90.7 Y:215.2 }
+          { ID:30 Base:U X:90.7 Y:232.8 }
+          { ID:31 Base:G X:108.9 Y:241.7 }
+          { ID:32 Base:G X:124.5 Y:254.1 }
+          { ID:33 Base:U X:135.7 Y:270.6 }
+          { ID:34 Base:U X:141.6 Y:289.7 }
+          { ID:35 Base:G X:141.6 Y:309.6 }
+          { ID:36 Base:G X:135.7 Y:328.7 }
+          { ID:37 Base:G X:124.5 Y:345.2 }
+          { ID:38 Base:U X:108.9 Y:357.6 }
+          { ID:39 Base:G X:90.7 Y:366.5 }
+          { ID:40 Base:C X:90.7 Y:384.1 }
+          { ID:41 Base:G X:109.1 Y:401.7 }
+          { ID:42 Base:G X:116.5 Y:425.1 }
+          { ID:43 Base:U X:109.1 Y:448.5 }
+          { ID:44 Base:C X:90.7 Y:466.1 }
+          { ID:45 Base:G X:90.7 Y:504.4 }
+          { ID:46 Base:G X:90.7 Y:522.0 }
+          { ID:47 Base:C X:90.7 Y:539.6 }
+          { ID:48 Base:U X:90.7 Y:557.2 }
+          { ID:49 Base:A X:90.7 Y:574.8 }
+          { ID:50 Base:G X:90.7 Y:592.4 }
+          { ID:51 Base:C X:90.7 Y:610.0 }
+          { ID:52 Base:C X:90.7 Y:627.6 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:52" Type:BP }
+      { Pair:"2:51" Type:BP }
+      { Pair:"3:50" Type:BP }
+      { Pair:"4:49" Type:BP }
+      { Pair:"5:48" Type:BP }
+      { Pair:"6:47" Type:BP }
+      { Pair:"7:46" Type:BP }
+      { Pair:"8:45" Type:BP }
+      { Pair:"10:44" Type:BP }
+      { Pair:"15:40" Type:BP }
+      { Pair:"16:39" Type:BP }
+      { Pair:"17:30" Type:BP }
+      { Pair:"18:29" Type:BP }
+      { Pair:"19:28" Type:BP }
+      { Pair:"20:27" Type:BP }
+      { Pair:"21:26" Type:BP }
+    ]
+  }
+]

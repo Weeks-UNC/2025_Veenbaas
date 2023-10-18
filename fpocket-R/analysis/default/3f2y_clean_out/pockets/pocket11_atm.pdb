@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0810
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9824
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5469
+HEADER 5  - Mean B-factor of pocket residues  : 0.3804
+HEADER 6  - Hydrophobicity Score              : -5.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.2386
+HEADER 10  -Pocket volume (convex hull)       : 6.8229
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    722  C5' U   X  34      15.285  39.378  13.129  0.00  0.00           C 0
+ATOM    762  OP1 G   X  35      10.450  41.098  12.797  0.27  3.21           O 0
+ATOM    727  O3' U   X  34      12.401  40.325  14.122  0.67  1.07           O 0
+ATOM    739  OP1 U   X  34      16.029  40.390  10.372  0.00  0.00           O 0
+ATOM    186  O2' G   X   9      17.027  34.495  11.533  0.43  4.29           O 0
+ATOM   2191   N2 G   X 105      12.244  33.494  11.731  0.50  2.19           N 0
+ATOM   2210  O2' A   X 106       8.932  36.659   9.031  0.56  9.64           O 0
+ATOM    182  O4' G   X   9      15.621  32.691   9.407  0.67  3.21           O 0
+ATOM    170   O2 C   X   8      12.069  32.078   9.551  0.52  4.29           O 0
+ATOM    166  O2' C   X   8      13.834  32.365   6.295  0.00  0.00           O 0
+ATOM   2173   N6 A   X 104      15.862  34.390  14.165  0.59  1.09           N 0
+ATOM   2187  O2' G   X 105      11.008  38.181  14.765  0.00  0.00           O 0
+ATOM   2206  O4' A   X 106       9.342  36.712  12.142  0.59  2.14           O 0
+ATOM   2192   N3 G   X 105      11.782  34.324  13.826  0.00  0.00           N 0
+ATOM   2211  C1' A   X 106       9.239  35.660  11.198  0.00  0.00           C 0
+ATOM    181  C4' G   X   9      16.842  33.239   8.851  0.00  0.00           C 0
+ATOM   2205  C4' A   X 106       8.472  37.798  11.742  0.00  0.00           C 0
+TER
+END

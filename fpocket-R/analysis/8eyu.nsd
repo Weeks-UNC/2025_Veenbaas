@@ -1,0 +1,78 @@
+[
+  { Version:"1.0" Title:"8eyu" }
+  {
+    Title:"8eyu"
+    Mode:Standard
+    Flip:true
+    Strands:[
+      {
+        Strand:[
+          { ID:1 Base:g X:41.3 Y:480.8 }
+          { ID:2 Base:C X:41.3 Y:463.2 }
+          { ID:3 Base:G X:41.3 Y:445.6 }
+          { ID:4 Base:C X:41.3 Y:428.0 }
+          { ID:5 Base:C X:41.3 Y:410.4 }
+          { ID:6 Base:G X:41.3 Y:392.8 }
+          { ID:7 Base:G X:41.3 Y:375.2 }
+          { ID:8 Base:U X:26.8 Y:361.8 }
+          { ID:9 Base:u X:18.0 Y:345.1 }
+          { ID:10 Base:A X:18.0 Y:326.2 }
+          { ID:11 Base:G X:26.8 Y:309.4 }
+          { ID:12 Base:G X:41.3 Y:296.0 }
+          { ID:13 Base:C X:41.3 Y:278.4 }
+          { ID:14 Base:A X:41.3 Y:260.8 }
+          { ID:15 Base:G X:41.3 Y:243.2 }
+          { ID:16 Base:A X:41.3 Y:225.6 }
+          { ID:17 Base:G X:23.3 Y:216.7 }
+          { ID:18 Base:G X:7.7 Y:205.0 }
+          { ID:19 Base:U X:-4.2 Y:189.6 }
+          { ID:20 Base:G X:-11.6 Y:171.5 }
+          { ID:21 Base:G X:-13.8 Y:152.2 }
+          { ID:22 Base:G X:-10.9 Y:132.9 }
+          { ID:23 Base:U X:-2.9 Y:115.2 }
+          { ID:24 Base:G X:9.5 Y:100.2 }
+          { ID:25 Base:G X:25.4 Y:89.0 }
+          { ID:26 Base:U X:43.4 Y:80.9 }
+          { ID:27 Base:G X:27.5 Y:69.1 }
+          { ID:28 Base:U X:19.2 Y:51.1 }
+          { ID:29 Base:G X:20.6 Y:31.3 }
+          { ID:30 Base:G X:31.3 Y:14.6 }
+          { ID:31 Base:A X:48.7 Y:5.1 }
+          { ID:32 Base:G X:68.6 Y:5.1 }
+          { ID:33 Base:G X:86.0 Y:14.6 }
+          { ID:34 Base:A X:96.7 Y:31.3 }
+          { ID:35 Base:G X:98.0 Y:51.1 }
+          { ID:36 Base:U X:89.8 Y:69.1 }
+          { ID:37 Base:A X:73.8 Y:80.9 }
+          { ID:38 Base:U X:71.7 Y:225.6 }
+          { ID:39 Base:C X:71.7 Y:243.2 }
+          { ID:40 Base:U X:71.7 Y:260.8 }
+          { ID:41 Base:G X:71.7 Y:278.4 }
+          { ID:42 Base:U X:71.7 Y:296.0 }
+          { ID:43 Base:C X:71.7 Y:375.2 }
+          { ID:44 Base:C X:71.7 Y:392.8 }
+          { ID:45 Base:G X:71.7 Y:410.4 }
+          { ID:46 Base:G X:71.7 Y:428.0 }
+          { ID:47 Base:C X:71.7 Y:445.6 }
+          { ID:48 Base:G X:71.7 Y:463.2 }
+          { ID:49 Base:C X:71.7 Y:480.8 }
+        ]
+      }
+    ]
+    Pairs:[
+      { Pair:"1:49" Type:BP }
+      { Pair:"2:48" Type:BP }
+      { Pair:"3:47" Type:BP }
+      { Pair:"4:46" Type:BP }
+      { Pair:"5:45" Type:BP }
+      { Pair:"6:44" Type:BP }
+      { Pair:"7:43" Type:BP }
+      { Pair:"12:42" Type:BP }
+      { Pair:"13:41" Type:BP }
+      { Pair:"14:40" Type:BP }
+      { Pair:"15:39" Type:BP }
+      { Pair:"16:38" Type:BP }
+      { Pair:"26:37" Type:BP }
+    ]
+  }
+]
