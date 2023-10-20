@@ -7,7 +7,7 @@ This repository contains the raw data, processed data, and Jupyter notebooks use
 
 ### Software
 
-Install instruction for the pocket detction, characterization, and visualization package used in the manuscript can be found at the [*fpocketR* repository](https://github.com/Weeks-UNC/fpocketR).
+Install instructions for the pocket detection, characterization, and visualization package used in the manuscript can be found at the [*fpocketR* repository](https://github.com/Weeks-UNC/fpocketR).
 
 *fpocketR* use instructions can be found in the [*fpocketR* repository demo](https://github.com/Weeks-UNC/fpocketR/blob/main/Demo/fpocketR_demo.md)
 
@@ -20,15 +20,19 @@ Install instruction for the pocket detction, characterization, and visualization
 
 ## Frag-MaP
 
+### Protocol
+
+Step-by-step [printable protocol](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/blob/main/Frag-MaP/protocol/Frag-MaP_protocol.pdf) for Frag-MaP. Steps are included for cell culture through Illumina sequencing.
+
 ### Data
 
-Raw seqeuncing data can be obtained at the [GEO repository](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245321).
+Raw sequencing data can be obtained at the [GEO repository](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245321).
 
 ### Analysis
 
 There are two options to view the analysis notebooks:
 
-### Static wed page in brower
+### Static web page in browser
 
 These are view-only versions of Jupyter Notebooks. 
 
