@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0744
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0205
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6385
+HEADER 5  - Mean B-factor of pocket residues  : 0.2706
+HEADER 6  - Hydrophobicity Score              : 0.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 2.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.3731
+HEADER 10  -Pocket volume (convex hull)       : 14.6121
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1786   O6 G   A  82      16.521  49.993   5.557  0.51  2.14           O 0
+ATOM   1808   N6 A   A  83      13.978  48.582   3.233  0.00  0.00           N 0
+ATOM   2268   O4 U   A 105      17.227  49.030   2.172  0.43  7.50           O 0
+ATOM   1787   N7 G   A  82      14.126  48.495   6.764  0.72  3.28           N 0
+ATOM   1765   C5 C   A  81      15.904  46.239   8.913  0.00  0.00           C 0
+ATOM   2288   O4 U   A 106      19.893  49.316   4.218  0.00  0.00           O 0
+ATOM   1764   N4 C   A  81      17.060  48.349   8.908  0.51  5.47           N 0
+ATOM   1768  OP2 C   A  81      15.072  41.068   7.253  0.00  0.00           O 1
+ATOM   1744   N7 G   A  80      18.660  43.808  10.654  0.63  7.66           N 0
+ATOM   1745   C8 G   A  80      18.153  42.619  10.838  0.00  0.00           C 0
+ATOM   1748  OP2 G   A  80      20.218  40.064   7.855  0.00  0.00           O 1
+ATOM   1743   O6 G   A  80      18.747  46.827  11.158  0.45  2.14           O 0
+ATOM   1791  OP2 G   A  82      11.056  44.925   5.820  0.29  9.64           O 1
+ATOM   1751  O5' C   A  81      13.062  41.947   8.358  0.00  0.00           O 0
+ATOM   1766   C6 C   A  81      14.849  45.534   9.336  0.00  0.00           C 0
+TER
+END

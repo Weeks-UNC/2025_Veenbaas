@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0683
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9700
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5872
+HEADER 5  - Mean B-factor of pocket residues  : 0.6829
+HEADER 6  - Hydrophobicity Score              : -17.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 2.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 443.1447
+HEADER 10  -Pocket volume (convex hull)       : 26.1461
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1051  O4' A   A  50      -7.326  20.327  19.996  0.70  2.14           O 0
+ATOM   1037   N3 G   A  49      -4.757  19.365  17.258  0.78  1.09           N 0
+ATOM   1036   N2 G   A  49      -5.024  17.130  17.730  0.49  3.28           N 0
+ATOM   1032  O2' G   A  49      -7.683  22.282  16.668  0.00  0.00           O 0
+ATOM   1055  O2' A   A  50      -8.390  18.181  21.854  0.00  0.00           O 0
+ATOM   1056  C1' A   A  50      -6.643  19.289  20.680  0.00  0.00           C 0
+ATOM    292   N3 G   A  14      -5.125  17.621  14.181  0.00  0.00           N 0
+ATOM    265  O2' A   A  13      -5.113  14.191  18.397  0.45  2.14           O 0
+ATOM    283  O4' G   A  14      -7.097  14.682  15.482  0.54  4.29           O 0
+ATOM    285  O3' G   A  14      -8.761  13.912  13.012  0.40  4.29           O 0
+ATOM    306  O4' A   A  15      -7.371  16.763  10.835  0.00  0.00           O 0
+ATOM    288  C1' G   A  14      -6.342  14.880  14.304  0.00  0.00           C 0
+ATOM   1072  C4' U   A  51      -7.217  17.301  25.604  0.00  0.00           C 0
+ATOM    258  C5' A   A  13      -5.403  11.045  21.485  0.00  0.00           C 0
+ATOM   1073  O4' U   A  51      -6.171  17.390  24.601  0.88  1.07           O 0
+ATOM   1077  O2' U   A  51      -5.437  15.159  26.658  0.00  0.00           O 0
+ATOM    280  C5' G   A  14      -7.848  12.546  16.302  0.00  0.00           C 0
+ATOM    260  C4' A   A  13      -5.111  12.220  20.593  0.00  0.00           C 0
+ATOM   1059   N3 A   A  50      -4.331  17.462  21.437  0.00  0.00           N 0
+ATOM    282  C4' G   A  14      -8.061  13.613  15.266  0.00  0.00           C 0
+ATOM    291   N2 G   A  14      -4.862  19.883  13.815  0.00  0.00           N 0
+ATOM    311  C1' A   A  15      -6.488  17.820  10.517  0.00  0.00           C 0
+ATOM    310  O2' A   A  15      -7.559  19.008   8.741  0.00  0.00           O 0
+ATOM    261  O4' A   A  13      -3.880  12.869  20.980  0.74  5.36           O 0
+ATOM   1078  C1' U   A  51      -4.946  16.939  25.144  0.00  0.00           C 0
+ATOM    263  O3' A   A  13      -6.114  11.646  18.469  0.00  0.00           O 0
+TER
+END
