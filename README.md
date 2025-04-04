@@ -1,4 +1,4 @@
-# 2023_Veenbaas_PNAS_fpocketR_Frag-MaP
+# 2025_Veenbaas_PNAS_fpocketR_Frag-MaP
 
 This repository contains the raw data, processed data, and Jupyter notebooks used in the analysis of fpocketR and Frag-MaP data for the manuscript "Ligand-binding pocket in RNA, and where to find them".
 
