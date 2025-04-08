@@ -1,0 +1,24 @@
+CRYST1  132.175   35.260   42.276  90.00  90.86  90.00 C 1 2 1       4
+HETATM    1  N1  GUN B 111      12.033  10.495   9.541  1.00 26.37      L    N  
+HETATM    2  C2  GUN B 111      11.577  11.866   9.651  1.00 26.46      L    C  
+HETATM    3  N2  GUN B 111      11.558  12.580  10.917  1.00 25.34      L    N  
+HETATM    4  N3  GUN B 111      11.122  12.581   8.472  1.00 25.14      L    N  
+HETATM    5  C4  GUN B 111      11.115  11.908   7.154  1.00 25.74      L    C  
+HETATM    6  C5  GUN B 111      11.541  10.622   7.033  1.00 24.50      L    C  
+HETATM    7  C6  GUN B 111      12.029   9.842   8.259  1.00 26.52      L    C  
+HETATM    8  O6  GUN B 111      12.392   8.710   8.147  1.00 25.70      L    O  
+HETATM    9  N7  GUN B 111      11.420  10.294   5.759  1.00 24.65      L    N  
+HETATM   10  C8  GUN B 111      10.933  11.343   5.082  1.00 23.08      L    C  
+HETATM   11  N9  GUN B 111      10.746  12.344   5.958  1.00 26.13      L    N  
+CONECT    1    2    7
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6   11
+CONECT    6    5    7    9
+CONECT    7    6    1    8
+CONECT    8    7
+CONECT    9    6   10
+CONECT   10    9   11
+CONECT   11    5   10
+END

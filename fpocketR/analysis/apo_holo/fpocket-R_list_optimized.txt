@@ -1,0 +1,20 @@
+-pdb 8f4O -c A -l no -off 11 -o apo
+-pdb 2GDI -c X -lc X -l TPP -off 9 -o holo
+-pdb 5E54 -c A -l no -off 12 -o apo
+-pdb 5SWE -c X -lc X -l ADE -off 12 -o holo
+-pdb 7KD1 -c A -l no -off 0 -o apo
+-pdb 4LVZ -c A -lc A -l 6AP -off 0 -o holo
+-pdb 6WJR -c X -l no -off 0 -o apo
+-pdb 5kx9 -c X,Y -lc X -l 6YG -o holo
+-pdb 7WIA -c V -l no -off 5 -o apo
+-pdb 7WIA -c V -lc V -l THG -off 5 -o holo
+-pdb 3IQP -c A -l no -off 0 -o apo
+-pdb 4KQY -c A -c A -lc A -l SAM -o holo
+-pdb 6UES -c A -l no -off 0 -o apo
+-pdb 6UET -c A -lc A -l SAM -off 0 -o holo
+-pdb 6VUH -c A -l no -off 0 -o apo
+-pdb 6VUI -c A -lc A -l PRF -off 0 -o holo
+-pdb 6DNR -c A -l no -off 0 -o apo
+-pdb 6CK5 -c A -lc A -l PRP -off -1 -o holo
+-pdb 6XJZ -c A -l no -off 0 -o apo
+-pdb 6XJQ -c A -lc A -l V4J -off 0 -o holo

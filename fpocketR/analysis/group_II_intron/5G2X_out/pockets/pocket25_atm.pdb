@@ -1,0 +1,54 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : 0.1724
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    48
+HEADER 3  - Mean alpha-sphere radius          : 3.4186
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5150
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -12.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 237.6903
+HEADER 10  -Pocket volume (convex hull)       : 43.2229
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM  14311  C1' A   B2468     171.444 168.372 155.031  0.00  0.00           C 0
+ATOM  14365  OP2 A   B2470     168.020 169.590 157.077  0.67  1.07           O 1
+ATOM  14320   C8 A   B2468     172.138 170.369 153.618  0.00  0.00           C 0
+ATOM  14370  O4' A   B2471     167.442 169.514 151.817  0.00  0.00           O 0
+ATOM  14032  C1' C   B2455     176.885 176.311 153.706  0.00  0.00           C 0
+ATOM  14318   N6 A   B2468     176.084 172.038 153.791  0.46  1.09           N 0
+ATOM  14354   N1 A   B2470     171.851 174.138 153.076  0.45  4.37           N 0
+ATOM  14360   N6 A   B2470     172.916 176.084 152.436  0.39  4.37           N 0
+ATOM  14035   O2 C   B2455     177.768 174.798 155.793  0.10  8.57           O 0
+ATOM  14359   C6 A   B2470     171.880 175.488 153.031  0.00  0.00           C 0
+ATOM  14355   C2 A   B2470     170.811 173.543 153.673  0.00  0.00           C 0
+ATOM  14356   N3 A   B2470     169.750 174.092 154.260  0.61  1.09           N 0
+ATOM  14368  O5' A   B2471     166.352 172.113 152.426  0.00  0.00           O 0
+ATOM  14316   C5 A   B2468     174.161 170.636 154.206  0.00  0.00           C 0
+ATOM  14321   N9 A   B2468     172.382 169.389 154.548  0.00  0.00           N 0
+ATOM  14315   C4 A   B2468     173.693 169.555 154.932  0.00  0.00           C 0
+ATOM  14346  O5' A   B2470     166.735 171.528 156.189  0.00  0.00           O 0
+ATOM  14317   C6 A   B2468     175.497 171.018 154.420  0.00  0.00           C 0
+ATOM  14319   N7 A   B2468     173.169 171.142 153.379  0.00  0.00           N 0
+ATOM  14345  C5' A   B2470     167.590 172.633 156.442  0.00  0.00           C 0
+ATOM  14322  OP1 A   B2468     170.634 167.729 160.858  0.58  7.50           O 0
+ATOM  14286  O3' A   B2467     172.598 169.229 161.252  0.72  3.21           O 0
+ATOM  14364  OP1 A   B2470     166.217 170.742 158.495  0.65  4.29           O 0
+ATOM  14288  O2' A   B2467     173.570 171.697 160.435  0.47  8.57           O 0
+ATOM  14348  O4' A   B2470     167.838 175.039 156.348  0.78  5.36           O 0
+ATOM  14292   N3 A   B2467     177.363 171.644 158.558  0.22  3.28           N 0
+ATOM  14313   C2 A   B2468     175.631 169.283 155.943  0.00  0.00           C 0
+ATOM  14314   N3 A   B2468     174.385 168.829 155.827  0.89  2.19           N 0
+ATOM  14312   N1 A   B2468     176.220 170.306 155.313  0.00  0.00           N 0
+ATOM  14304  O5' A   B2468     172.264 168.114 159.014  1.00  1.07           O 0
+ATOM  14306  O4' A   B2468     171.304 168.525 156.430  0.00  0.00           O 0
+ATOM  14287  C2' A   B2467     174.468 170.597 160.418  0.00  0.00           C 0
+TER
+END

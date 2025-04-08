@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.2718
+HEADER 1  - Drug Score                        : 0.5707
+HEADER 2  - Number of alpha spheres           :    76
+HEADER 3  - Mean alpha-sphere radius          : 3.5242
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4263
+HEADER 5  - Mean B-factor of pocket residues  : 0.3469
+HEADER 6  - Hydrophobicity Score              : -22.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 322.5575
+HEADER 10  -Pocket volume (convex hull)       : 61.9748
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 23.0000
+HEADER 13 - Number of apolar alpha sphere     :    24
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   1041   N3 A   X  49      27.361  35.471  28.326  0.00  0.00           N 0
+ATOM   1724  C1' A   Y  85      30.627  37.586  24.305  0.00  0.00           C 0
+ATOM   1216   O2 U   Y  61      26.662  40.005  28.135  0.44  1.07           O 0
+ATOM   1723  O2' A   Y  85      31.118  37.198  26.657  0.44  9.64           O 0
+ATOM   1719  O4' A   Y  85      30.759  38.991  24.103  0.26  5.36           O 0
+ATOM   1015  O2' A   X  48      24.843  32.382  21.668  0.10  5.36           O 0
+ATOM   1731   N6 A   Y  85      31.033  33.953  19.454  0.00  9.84           N 0
+ATOM   1730   C6 A   Y  85      30.746  34.216  20.746  0.00  0.00           C 0
+ATOM   2034   N6 A   Y  99      27.617  30.533  19.961  0.00  0.00           N 0
+ATOM   1727   N3 A   Y  85      30.137  34.639  23.505  0.37  2.19           N 0
+ATOM   1033  O4' A   X  49      27.217  32.864  24.788  0.00  0.00           O 0
+ATOM   1726   C2 A   Y  85      30.041  33.479  22.846  0.00  0.00           C 0
+ATOM   1018   C2 A   X  48      24.482  38.192  21.232  0.00  0.00           C 0
+ATOM   1734   N9 A   Y  85      30.787  36.935  23.007  0.60  1.09           N 0
+ATOM   1728   C4 A   Y  85      30.562  35.616  22.688  0.00  0.00           C 0
+ATOM   1729   C5 A   Y  85      30.900  35.494  21.341  0.00  0.00           C 0
+ATOM   1021   C5 A   X  48      23.374  37.322  23.494  0.00  0.00           C 0
+ATOM   1048   N9 A   X  49      26.383  33.986  26.676  0.00  0.00           N 0
+ATOM   1038  C1' A   X  49      27.584  33.483  26.003  0.00  0.00           C 0
+ATOM   1718  C4' A   Y  85      31.867  39.498  24.881  0.00  0.00           C 0
+ATOM   1721  O3' A   Y  85      33.538  38.464  26.256  0.39  3.21           O 0
+ATOM   1207  C4' U   Y  61      29.853  42.267  30.921  0.00  0.00           C 0
+ATOM   1210  O3' U   Y  61      30.612  43.962  29.311  0.63  6.43           O 0
+ATOM   1213  C1' U   Y  61      27.941  42.076  29.559  0.00  0.00           C 0
+ATOM   1042   C4 A   X  49      26.329  34.920  27.676  0.00  0.00           C 0
+ATOM   1043   C5 A   X  49      24.987  35.241  27.822  0.00  0.00           C 0
+ATOM   1725   N1 A   Y  85      30.313  33.211  21.546  0.46  1.09           N 0
+ATOM   1020   C4 A   X  48      23.561  36.537  22.352  0.00  0.00           C 0
+ATOM   1017   N1 A   X  48      24.360  39.075  22.260  0.42  8.75           N 0
+ATOM   1208  O4' U   Y  61      28.707  41.427  30.550  0.40  2.14           O 0
+ATOM   1733   C8 A   Y  85      31.253  37.514  21.862  0.00  0.00           C 0
+ATOM   1732   N7 A   Y  85      31.338  36.697  20.842  0.68  7.66           N 0
+ATOM   2028   N1 A   Y  99      27.741  30.746  17.650  0.19  4.37           N 0
+ATOM   1023   N6 A   X  48      23.686  39.493  24.456  0.30  3.28           N 0
+ATOM   1024   N7 A   X  48      22.768  36.607  24.496  0.25  2.19           N 0
+ATOM   1044   C6 A   X  49      24.661  36.210  28.786  0.00  0.00           C 0
+ATOM   1047   C8 A   X  49      25.083  33.783  26.300  0.00  0.00           C 0
+ATOM   1014  C2' A   X  48      23.978  33.042  22.561  0.00  0.00           C 0
+ATOM   1019   N3 A   X  48      24.101  36.909  21.181  0.42  4.37           N 0
+ATOM   1022   C6 A   X  48      23.803  38.647  23.429  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,1 @@
+while read line; do echo "$line"; python -m fpocketR $line; done < fpocket-R_list_apo.txt

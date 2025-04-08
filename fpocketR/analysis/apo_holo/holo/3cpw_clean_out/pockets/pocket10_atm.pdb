@@ -1,0 +1,55 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.2758
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    60
+HEADER 3  - Mean alpha-sphere radius          : 3.3720
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4236
+HEADER 5  - Mean B-factor of pocket residues  : 0.4366
+HEADER 6  - Hydrophobicity Score              : -3.7273
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.1818
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.6456
+HEADER 10  -Pocket volume (convex hull)       : 55.6072
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.0500
+ATOM  43266  O2' G   02073      52.312 118.030 104.238  0.62  1.07           O 0
+ATOM  13282  O3' A   0 631      50.993 117.008  99.510  0.41  1.07           O 0
+ATOM  43777   N7 A   02096      54.777 118.809 101.959  0.65  6.56           N 0
+ATOM  43776   N6 A   02096      54.677 117.341  99.235  0.55  2.19           N 0
+ATOM  50898  O2' C   02534      53.151 113.050 100.188  0.37  4.29           O 0
+ATOM  43223  O2' C   02071      49.916 110.691 101.094  0.47  5.36           O 0
+ATOM  13284  O2' A   0 631      49.645 117.191 101.783  0.39  1.07           O 0
+ATOM  13319  OP2 A   0 632      51.820 114.708  98.923  0.00  0.00           O 1
+ATOM  43265  C2' G   02073      52.182 116.997 105.186  0.00  0.00           C 0
+ATOM  43263  C3' G   02073      50.746 116.641 105.543  0.00  0.00           C 0
+ATOM  43259  C5' G   02073      50.851 114.542 106.967  0.00  0.00           C 0
+ATOM  43279  OP1 G   02073      53.467 113.502 107.241  0.00  0.00           O 0
+ATOM  43237  O5' G   02072      49.063 111.113 105.718  0.57  1.07           O 0
+ATOM  43257  OP2 G   02072      47.243 112.090 104.314  0.56  2.14           O 1
+ATOM  43254   C8 G   02072      50.480 107.396 105.417  0.00  0.00           C 0
+ATOM  50894  O4' C   02534      53.721 110.082 101.088  0.57  1.07           O 0
+ATOM  50882   O2 C   02533      55.351 107.536 104.128  0.00  0.00           O 0
+ATOM  50878  O2' C   02533      52.708 106.370 101.460  0.00  0.00           O 0
+ATOM  43255   N9 G   02072      51.494 107.697 106.294  0.00  0.00           N 0
+ATOM  13262  O2' A   0 630      47.327 115.478  98.357  0.54  2.14           O 0
+ATOM  13221   C2 A   0 628      47.717 112.333  97.065  0.00  0.00           C 0
+ATOM  13318  OP1 A   0 632      49.791 115.715  97.723  0.00  0.00           O 0
+ATOM  13266   N3 A   0 630      45.514 113.519 100.640  0.00  0.00           N 0
+ATOM  13265   C2 A   0 630      45.499 112.391 101.344  0.00  0.00           C 0
+ATOM  43221  O3' C   02071      48.757 110.315 103.372  0.65  2.14           O 0
+ATOM  43218  C4' C   02071      48.491 108.172 102.327  0.00  0.00           C 0
+ATOM  43302  OP2 A   02074      48.184 116.956 104.102  0.51  3.21           O 1
+ATOM  43242  C2' G   02072      52.002 110.159 106.397  0.00  0.00           C 0
+ATOM  43243  O2' G   02072      53.405 110.268 106.311  0.00  0.00           O 0
+ATOM  50899  C1' C   02534      54.430 111.303 101.218  0.00  0.00           C 0
+ATOM  43240  C3' G   02072      51.345 111.255 107.242  0.00  0.00           C 0
+ATOM  50902   O2 C   02534      56.133 113.119 102.341  0.48  2.14           O 0
+ATOM  43277   C8 G   02073      55.092 116.921 105.780  0.00  0.00           C 0
+TER
+END

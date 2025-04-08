@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0084
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7754
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5631
+HEADER 5  - Mean B-factor of pocket residues  : 0.3209
+HEADER 6  - Hydrophobicity Score              : 22.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 2.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.6659
+HEADER 10  -Pocket volume (convex hull)       : 1.5133
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    633  C1' U   B 219      38.176  19.414   2.992  0.00  0.00           C 0
+ATOM    632  O2' U   B 219      38.513  19.734   0.611  0.00  0.00           O 0
+ATOM    800  O2' G   B 227      42.062  25.241   3.889  0.00  0.00           O 0
+ATOM    636   O2 U   B 219      40.841  19.854   3.710  0.47  1.07           O 0
+ATOM    819  O4' C   B 228      38.776  25.511   5.647  0.48  5.36           O 0
+ATOM    628  O4' U   B 219      36.777  19.394   3.238  0.00  0.00           O 0
+ATOM    804   N2 G   B 227      39.151  21.590   6.318  0.42  1.09           N 0
+ATOM    805   N3 G   B 227      41.296  22.336   6.003  0.66  1.09           N 0
+ATOM    824  C1' C   B 228      37.875  25.012   6.624  0.00  0.00           C 0
+ATOM    823  O2' C   B 228      35.880  26.359   6.270  0.00  0.00           O 0
+ATOM    616   O2 C   B 218      37.191  20.533   7.475  0.42  2.14           O 0
+ATOM    827   O2 C   B 228      36.732  23.416   8.519  0.38  2.14           O 0
+ATOM    612  O2' C   B 218      33.898  19.513   5.737  0.44  8.57           O 0
+TER
+END

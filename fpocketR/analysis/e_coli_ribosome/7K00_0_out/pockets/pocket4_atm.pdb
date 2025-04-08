@@ -1,0 +1,54 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1884
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    55
+HEADER 3  - Mean alpha-sphere radius          : 3.5299
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4189
+HEADER 5  - Mean B-factor of pocket residues  : 0.2787
+HEADER 6  - Hydrophobicity Score              : 5.5455
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 2.4545
+HEADER 9  - Pocket volume (Monte Carlo)       : 321.5166
+HEADER 10  -Pocket volume (convex hull)       : 71.1408
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2694   O4 U   A2039     183.474 110.972 186.989  0.45  5.36           O 0
+ATOM   2633  OP2 C   A2036     181.555 111.826 179.736  0.57  7.50           O 1
+ATOM   2673   O6 G   A2038     184.356 114.185 186.485  0.00  0.00           O 0
+ATOM   2651   N7 A   A2037     186.303 114.260 182.541  0.70  5.47           N 0
+ATOM   2592  C5' G   A2035     179.775 114.851 180.672  0.00  0.00           C 0
+ATOM   2630   C5 C   A2036     183.506 116.436 179.841  0.00  0.00           C 0
+ATOM   2650   N6 A   A2037     185.103 116.292 184.455  0.47  1.09           N 0
+ATOM   2628   C4 C   A2036     184.326 117.184 180.729  0.00  0.00           C 0
+ATOM   2674   N7 G   A2038     186.657 112.302 185.674  0.57  6.56           N 0
+ATOM   2616  O5' C   A2036     183.073 112.593 177.957  0.00  0.00           O 0
+ATOM   2631   C6 C   A2036     184.121 115.686 178.917  0.00  0.00           C 0
+ATOM   2612  OP1 G   A2035     181.122 117.096 182.401  0.45  3.21           O 0
+ATOM   2410   O4 U   A2026     184.617 118.857 185.994  0.53  2.14           O 0
+ATOM   2557  O2' A   A2033     181.277 120.445 182.288  0.38  6.43           O 0
+ATOM   2390   N4 C   A2025     182.728 116.540 186.747  0.53  2.19           N 0
+ATOM   2655  OP2 A   A2037     185.291 110.329 180.062  0.62  2.14           O 1
+ATOM   2678  OP2 G   A2038     188.122 108.529 183.223  0.62  8.57           O 1
+ATOM   2652   C8 A   A2037     187.279 113.552 182.048  0.00  0.00           C 0
+ATOM   2347   N4 C   A2023     178.186 111.393 186.957  0.47  8.75           N 0
+ATOM   2370   N7 G   A2024     179.322 115.546 188.746  0.63  2.19           N 0
+ATOM   2369   O6 G   A2024     181.867 113.840 188.627  0.26  1.07           O 0
+ATOM   2391   C5 C   A2025     181.794 118.159 188.270  0.00  0.00           C 0
+ATOM   2348   C5 C   A2023     176.127 112.427 186.304  0.00  0.00           C 0
+ATOM   2346   C4 C   A2023     177.168 112.195 187.251  0.00  0.00           C 0
+ATOM   2579  O2' U   A2034     176.526 115.284 182.287  0.62  2.14           O 0
+ATOM   2577  O3' U   A2034     178.660 116.949 182.239  0.00  0.00           O 0
+ATOM   2394  OP2 C   A2025     179.300 121.442 188.497  0.00  1.07           O 1
+ATOM   2590  OP2 U   A2034     177.376 122.562 182.933  0.50  5.36           O 1
+ATOM   2572  C5' U   A2034     177.129 119.646 183.091  0.00  0.00           C 0
+ATOM   2373  OP1 G   A2024     175.626 120.285 186.600  0.28  6.43           O 0
+ATOM   2374  OP2 G   A2024     176.858 118.143 186.105  0.54  3.21           O 1
+ATOM   2349   C6 C   A2023     175.130 113.234 186.668  0.00  0.00           C 0
+TER
+END

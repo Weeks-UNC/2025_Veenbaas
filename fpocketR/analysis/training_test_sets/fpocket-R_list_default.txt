@@ -1,0 +1,38 @@
+-pdb 1f27.pdb -nsd 1f27.nsd -c A,B -lc A -l BTN -off 2 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 1q8n.pdb -nsd 1q8n.nsd -c A -lc A -l MGR -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 8d2b.pdb -nsd 8d2b.nsd -c A -lc A -l QAX -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 7elr.pdb -nsd 7elr.nsd -c A -lc A -l XAN -off 1 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 3e5c.pdb -nsd 3e5c.nsd -c A -lc A -l SAM -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6fz0.pdb -nsd 6fz0.nsd -c A -lc A -l SAM -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 3npq.pdb -nsd 3npq.nsd -c A -lc A -l SAH -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6ubu.pdb -nsd 6ubu.nsd -c B -lc B -l GUN -off 14 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 2gdi.pdb -nsd 2gdi.nsd -c X -lc X -l TPP -off 9 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6las.pdb -nsd 6las.nsd -c A -lc A -l SAM -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 4b5r.pdb -nsd 4b5r.nsd -c A -lc A -l SAM -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 4rzd.pdb -nsd 4rzd.nsd -c A -lc A -l PRF -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 5kx9.pdb -nsd 5kx9.nsd -c X,Y -lc X -l 6YG -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 3q50.pdb -nsd 3q50.nsd -c A -lc A -l PRF -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6yl5.pdb -nsd 6yl5.nsd -c G,H -lc G -l SAH -off 6 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 1ykv.pdb -nsd 1ykv.nsd -c A,B -lc A -l DAI -off 100 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 2qwy.pdb -nsd 2qwy.nsd -c A -lc A -l SAM -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6xjq.pdb -nsd 6xjq.nsd -c A -lc A -l V4J -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 5kpy.pdb -nsd 5kpy.nsd -c A -lc A -l 4PQ -off 12 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 5btp.pdb -nsd 5btp.nsd -c A -lc A -l AMZ -off 5 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 3d0u.pdb -nsd 3d0u.nsd -c A -lc A -l LYS -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6up0.pdb -nsd 6up0.nsd -c C -lc C -l YO3 -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 7eoh.pdb -nsd 7eoh.nsd -c A -lc A -l J8F -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 8eyu.pdb -nsd 8eyu.nsd -c A -lc A -l X5R -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 7oaw.pdb -nsd 7oaw.nsd -c A -lc A -l V6T -off 1 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 8hb3.pdb -nsd 8hb3.nsd -c A,B -lc A -l NNR -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 3ski.pdb -nsd 3ski.nsd -c A -lc A -l GNG -off 21 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 5ob3.pdb -nsd 5ob3.nsd -c A -lc A -l 1TU -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 4lx5.pdb -nsd 4lx5.nsd -c A -lc A -l 29G -off 12 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 7kvt.pdb -nsd 7kvt.nsd -c B -lc B -l 2ZY -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6gzr.pdb -nsd 6gzr.nsd -c A -c A -l FH8 -off 0 -s 4 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 4jf2.pdb -nsd 4jf2.nsd -c A -lc A -l PRF -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 7fj0.pdb -nsd 7fj0.nsd -c A -lc A -l 53D -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 2ktz.pdb -nsd 2ktz.nsd -c A -lc A -l ISH -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6xb7.pdb -nsd 6xb7.nsd -c A -lc A -l UYS -off 0 -s 3 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 1lvj.pdb -nsd 1lvj.nsd -c A -lc A -l PMZ -off 15 -o -s 3 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 6va4.pdb -nsd 6va4.nsd -c A,B -lc B -l QSY -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out
+-pdb 7dwh.pdb -nsd 7dwh.nsd -c X -lc X -l SAM -off 0 -m 3.4 -M 6.2 -i 15 -D 2.4 -o default_parameters_out

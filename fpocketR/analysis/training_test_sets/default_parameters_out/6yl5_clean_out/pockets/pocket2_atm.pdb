@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0526
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2361
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7084
+HEADER 5  - Mean B-factor of pocket residues  : 0.0663
+HEADER 6  - Hydrophobicity Score              : 10.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 2.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 298.8480
+HEADER 10  -Pocket volume (convex hull)       : 8.1835
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   4399   N3 G   H  49      39.937  23.365   6.889  0.00  0.00           N 0
+ATOM   4398   N2 G   H  49      39.165  23.453   4.691  0.00  0.00           N 0
+ATOM   4424  O4' C   H  50      42.589  21.082   6.034  0.00  0.00           O 0
+ATOM   4394  O2' G   H  49      41.209  20.163   9.089  0.00  0.00           O 0
+ATOM   3758  C1' U   G  19      34.470  23.140   3.713  0.00  0.00           C 0
+ATOM   3753  O4' U   G  19      34.946  22.704   2.462  0.00  0.00           O 0
+ATOM   3797  OP1 U   G  20      32.335  18.830   2.635  0.52  7.50           O 0
+ATOM   3755  O3' U   G  19      32.333  21.206   3.272  0.63  5.36           O 0
+ATOM   3761   O2 U   G  19      35.778  23.372   6.115  0.00  0.00           O 0
+ATOM   4395  C1' G   H  49      40.660  22.409   9.591  0.00  0.00           C 0
+ATOM   4364   C2 A   H  48      37.425  24.761   9.348  0.00  0.00           C 0
+ATOM   3819   N1 C   G  21      32.657  22.543  10.452  0.00  0.00           N 0
+ATOM   3820   C2 C   G  21      33.529  23.509  10.914  0.00  0.00           C 0
+ATOM   4365   N3 A   H  48      37.800  24.744  10.632  0.00  0.00           N 0
+ATOM   3821   O2 C   G  21      33.903  23.405  12.096  0.37  6.43           O 0
+ATOM   4361  O2' A   H  48      39.869  23.268  14.086  0.00  0.00           O 0
+ATOM   4390  O4' G   H  49      40.806  22.407  11.005  0.67  3.21           O 0
+TER
+END

@@ -1,0 +1,67 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : 0.1179
+HEADER 1  - Drug Score                        : 0.0046
+HEADER 2  - Number of V. Vertices             :    45
+HEADER 3  - Mean alpha-sphere radius          : 3.4908
+HEADER 4  - Mean alpha-sphere SA              : 0.4441
+HEADER 5  - Mean B-factor                     : 0.2702
+HEADER 6  - Hydrophobicity Score              : -15.7778
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 2.6667
+HEADER 9  - Real volume (approximation)       : 202.1597
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 9.0000
+HEADER 12 - Number of apolar alpha sphere     :    10
+HEADER 13 - Proportion of apolar alpha sphere : 0.2222
+ATOM      1    O STP    35      22.121 137.809  59.518    0.00     3.01
+ATOM      2    O STP    35      21.069 138.008  57.429    0.00     3.85
+ATOM      3    O STP    35      22.253 137.961  60.839    0.00     3.03
+ATOM      4    O STP    35      22.252 138.072  60.625    0.00     3.08
+ATOM      5    O STP    35      21.572 138.595  60.822    0.00     3.00
+ATOM      6    O STP    35      21.900 138.543  60.336    0.00     3.16
+ATOM      7    O STP    35      21.319 139.074  59.637    0.00     3.40
+ATOM      8    O STP    35      21.584 138.863  59.846    0.00     3.30
+ATOM      9    O STP    35      21.357 138.219  57.516    0.00     3.99
+ATOM     10    O STP    35      21.371 138.215  57.545    0.00     3.97
+ATOM     11    C STP    35      21.372 138.206  57.506    0.00     3.99
+ATOM     12    O STP    35      22.790 140.639  55.554    0.00     3.81
+ATOM     13    C STP    35      22.254 137.306  57.756    0.00     3.49
+ATOM     14    C STP    35      21.696 137.797  57.214    0.00     3.98
+ATOM     15    O STP    35      20.838 138.209  57.514    0.00     3.82
+ATOM     16    O STP    35      21.221 138.398  57.591    0.00     3.98
+ATOM     17    O STP    35      20.210 138.209  57.210    0.00     3.41
+ATOM     18    O STP    35      20.635 137.779  56.993    0.00     3.40
+ATOM     19    C STP    35      21.300 137.627  57.167    0.00     3.82
+ATOM     20    C STP    35      21.541 137.581  57.106    0.00     3.88
+ATOM     21    C STP    35      21.409 137.291  57.027    0.00     3.75
+ATOM     22    O STP    35      21.224 135.844  57.042    0.00     3.14
+ATOM     23    O STP    35      19.634 138.585  58.702    0.00     3.08
+ATOM     24    O STP    35      20.150 138.215  57.884    0.00     3.40
+ATOM     25    O STP    35      19.690 138.211  57.173    0.00     3.12
+ATOM     26    O STP    35      21.756 140.542  56.520    0.00     3.63
+ATOM     27    C STP    35      21.384 140.514  56.460    0.00     3.39
+ATOM     28    C STP    35      21.550 139.929  56.874    0.00     3.58
+ATOM     29    O STP    35      21.158 139.586  59.409    0.00     3.37
+ATOM     30    O STP    35      21.075 139.113  59.040    0.00     3.56
+ATOM     31    O STP    35      20.343 138.873  58.752    0.00     3.31
+ATOM     32    O STP    35      21.085 138.804  58.260    0.00     3.73
+ATOM     33    O STP    35      21.894 141.075  56.554    0.00     3.58
+ATOM     34    O STP    35      21.440 140.591  59.301    0.00     3.01
+ATOM     35    O STP    35      23.087 137.118  57.807    0.00     3.02
+ATOM     36    C STP    35      21.924 137.911  56.999    0.00     3.89
+ATOM     37    O STP    35      22.784 139.408  55.895    0.00     3.61
+ATOM     38    O STP    35      22.095 138.280  56.828    0.00     3.77
+ATOM     39    O STP    35      22.130 141.263  56.386    0.00     3.58
+ATOM     40    O STP    35      22.981 141.165  55.535    0.00     3.83
+ATOM     41    O STP    35      22.268 137.733  56.025    0.00     3.46
+ATOM     42    C STP    35      22.026 137.549  56.139    0.00     3.44
+ATOM     43    O STP    35      21.189 136.454  56.488    0.00     3.33
+ATOM     44    O STP    35      21.077 135.613  56.474    0.00     3.10
+ATOM     45    O STP    35      20.941 135.274  56.335    0.00     3.02
+TER
+END

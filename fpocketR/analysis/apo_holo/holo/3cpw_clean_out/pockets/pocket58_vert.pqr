@@ -1,0 +1,73 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.0071
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of V. Vertices             :    51
+HEADER 3  - Mean alpha-sphere radius          : 3.6143
+HEADER 4  - Mean alpha-sphere SA              : 0.4416
+HEADER 5  - Mean B-factor                     : 0.5361
+HEADER 6  - Hydrophobicity Score              : 13.2500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 2.7500
+HEADER 9  - Real volume (approximation)       : 324.1636
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM      1    O STP    58      79.248 169.222  94.174    0.00     4.14
+ATOM      2    O STP    58      80.062 169.826  92.986    0.00     4.15
+ATOM      3    O STP    58      80.166 170.148  93.011    0.00     4.09
+ATOM      4    O STP    58      80.908 170.581  92.868    0.00     3.83
+ATOM      5    O STP    58      80.737 171.325  98.624    0.00     3.15
+ATOM      6    O STP    58      75.060 173.317  95.272    0.00     3.29
+ATOM      7    O STP    58      74.989 173.439  95.166    0.00     3.19
+ATOM      8    O STP    58      74.904 173.084  95.439    0.00     3.40
+ATOM      9    O STP    58      74.790 172.890  95.519    0.00     3.46
+ATOM     10    O STP    58      74.826 172.905  95.600    0.00     3.52
+ATOM     11    O STP    58      80.811 171.261  93.298    0.00     3.81
+ATOM     12    O STP    58      80.271 171.112  93.495    0.00     3.96
+ATOM     13    O STP    58      79.146 170.909  95.591    0.00     4.08
+ATOM     14    O STP    58      74.150 172.304  97.146    0.00     3.45
+ATOM     15    O STP    58      73.302 173.029  97.420    0.00     3.47
+ATOM     16    O STP    58      75.235 172.522  96.373    0.00     3.96
+ATOM     17    O STP    58      75.234 172.526  96.372    0.00     3.96
+ATOM     18    O STP    58      76.975 171.479  98.534    0.00     3.02
+ATOM     19    O STP    58      79.225 169.216  94.177    0.00     4.13
+ATOM     20    O STP    58      77.983 169.130  93.699    0.00     3.32
+ATOM     21    O STP    58      75.122 171.093  95.712    0.00     3.44
+ATOM     22    O STP    58      77.288 171.632  96.523    0.00     3.95
+ATOM     23    O STP    58      77.228 171.801  96.986    0.00     3.80
+ATOM     24    O STP    58      79.055 171.014  95.667    0.00     4.05
+ATOM     25    O STP    58      79.421 171.777  98.108    0.00     3.04
+ATOM     26    O STP    58      76.562 172.298  96.625    0.00     3.98
+ATOM     27    O STP    58      76.771 172.177  96.876    0.00     3.86
+ATOM     28    O STP    58      76.359 173.476  96.054    0.00     3.74
+ATOM     29    O STP    58      76.182 173.065  96.425    0.00     3.95
+ATOM     30    O STP    58      79.766 171.151  96.455    0.00     3.63
+ATOM     31    O STP    58      76.537 173.832  97.304    0.00     3.26
+ATOM     32    O STP    58      76.289 173.826  96.938    0.00     3.52
+ATOM     33    O STP    58      76.455 174.454  96.941    0.00     3.25
+ATOM     34    O STP    58      75.143 171.055  95.701    0.00     3.43
+ATOM     35    O STP    58      75.230 170.170  94.863    0.00     3.07
+ATOM     36    O STP    58      80.670 171.467  97.144    0.00     3.23
+ATOM     37    O STP    58      80.457 171.405  97.183    0.00     3.37
+ATOM     38    O STP    58      80.664 171.393  98.459    0.00     3.18
+ATOM     39    O STP    58      80.184 171.622  98.065    0.00     3.21
+ATOM     40    O STP    58      80.451 171.307  97.392    0.00     3.41
+ATOM     41    O STP    58      80.394 171.329  97.320    0.00     3.43
+ATOM     42    O STP    58      77.293 170.283  95.929    0.00     3.73
+ATOM     43    O STP    58      77.242 170.223  95.889    0.00     3.71
+ATOM     44    O STP    58      77.259 168.620  95.120    0.00     3.28
+ATOM     45    O STP    58      78.788 169.232  94.685    0.00     4.06
+ATOM     46    O STP    58      77.438 169.192  94.956    0.00     3.68
+ATOM     47    O STP    58      77.434 169.194  94.958    0.00     3.67
+ATOM     48    O STP    58      77.433 169.190  94.958    0.00     3.67
+ATOM     49    O STP    58      77.901 168.206  95.088    0.00     3.13
+ATOM     50    O STP    58      79.016 169.306  94.697    0.00     4.16
+ATOM     51    O STP    58      78.971 169.869  95.193    0.00     4.09
+TER
+END

@@ -1,0 +1,17 @@
+REMARK Selection 'not nucleotide and not water'
+HETATM    1  N1  BTN A  33      14.353   3.016  12.526  1.00 12.13         H N
+HETATM    2  S1  BTN A  33      16.056   0.158  13.373  0.83 15.48         H S
+HETATM    3  C2  BTN A  33      17.275   1.567  13.814  1.00 14.69         H C
+HETATM    4  N2  BTN A  33      16.535   3.169  11.925  1.00 12.59         H N
+HETATM    5  C3  BTN A  33      15.139   3.334  11.591  1.00 10.92         H C
+HETATM    6  O3  BTN A  33      14.915   3.503  10.340  1.00 11.34         H O
+HETATM    7  C4  BTN A  33      16.527   2.842  13.418  0.90 13.45         H C
+HETATM    8  C5  BTN A  33      15.081   2.692  13.858  1.00 11.91         H C
+HETATM    9  C6  BTN A  33      14.701   1.221  14.197  0.88 14.62         H C
+HETATM   10  C7  BTN A  33      18.637   1.520  13.109  1.00 17.36         H C
+HETATM   11  C8  BTN A  33      19.288   0.153  13.075  0.97 21.65         H C
+HETATM   12  C9  BTN A  33      20.076  -0.174  14.330  0.34 23.46         H C
+HETATM   13  C10 BTN A  33      20.300  -1.695  14.483  0.83 26.54         H C
+HETATM   14  C11 BTN A  33      21.362  -2.261  13.549  0.61 26.48         H C
+HETATM   15  O11 BTN A  33      22.489  -2.500  13.971  0.13 27.28         H O
+HETATM   16  O12 BTN A  33      21.075  -2.531  12.384  0.27 27.19         H O

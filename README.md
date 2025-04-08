@@ -1,53 +1,82 @@
-# 2025_Veenbaas_PNAS_fpocketR_Frag-MaP
+# 2025_Veenbaas
 
-This repository contains the raw data, processed data, and Jupyter notebooks used in the analysis of fpocketR and Frag-MaP data for the manuscript "Ligand-binding pocket in RNA, and where to find them".
+This repository contains supplementary data and analysis software for the *fpocketR* and *Frag-MaP* results reported in the manuscript ["RNA ligand binding pockets and where to find them"](https://www.biorxiv.org/content/10.1101/2025.03.13.643147v1).
 
+## Table of Contents
 
-## *fpocketR*
+- [Overview](#overview)
+- [fpocketR](#fpocketr)
+  - [Analysis](#fpocketr-analysis)
+  - [Optimization](#fpocketr-optimization)
+- [Frag-MaP](#frag-map)
+  - [Analysis](#fragmap-analysis)
+  - [Protocol Templates](#protocol-templates)
+- [Citation](#citation)
+- [License](#license)
 
-### Software
+## Overview
 
-Install instructions for the pocket detection, characterization, and visualization package used in the manuscript can be found at the [*fpocketR* repository](https://github.com/Weeks-UNC/fpocketR).
+This repository provides access to the data, code, and protocols accompanying our manuscript on RNA ligand-binding pocket identification and characterization. The repository is organized around two key methodologies:
 
-*fpocketR* use instructions can be found in the [*fpocketR* repository demo](https://github.com/Weeks-UNC/fpocketR/blob/main/Demo/fpocketR_demo.md)
+- **fpocketR**: A computational tool for detecting and characterizing ligand-binding pockets in RNA structures
+- **Frag-MaP**: An experimental approach for mapping RNA-ligand interactions through chemical probing
 
-### Results
+## fpocketR
 
-*fpocketR* results using [default parameters](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/tree/main/fpocketR/analysis/default). 
+*fpocketR* is a package for detecting, visualizing, and characterizing drug-like small-molecule binding sites in RNAs. The ***fpocketR*** software can be accessed at: https://github.com/Weeks-UNC/fpocketR
 
-*fpocketR* results using optimized parameters are available for the [training set](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/tree/main/fpocketR/analysis/training) and [test set](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/tree/main/fpocketR/analysis/test).
+### fpocketR Analysis
 
+The `fpocketR/analysis/` directory contains results and example data for various RNA systems analyzed with *fpocketR*:
+
+- **apo_holo (FIG 5)**: Analysis of 10 RNA structures in both holo (ligand-bound) and apo (ligand-free) states
+- **dynamic_rna (Fig 5)**: Application of *fpocketR* to RNA structures with conformational dynamics
+- **e_coli_ribosome (FIG S7)**: Analysis of pockets the *E. coli* ribosome (PDB: 7K00)
+- **group_II_intron (FIG 7)**: Analysis of pockets in the group II intron (PDB: 5G2X)
+- **training_test_sets (FIG 1, 2, 6, 8)**: *fpocketR* results (default and optimized) for the small RNA training and test sets
+
+### fpocketR Optimization
+
+The `fpocketR/optimization/` directory contains:
+
+- **code**: Scripts used for parameter optimization and performance evaluation of *fpocketR*
+- **data**: Raw data from the multivariate optimization process that assessed 1875 parameter combinations
+- **figures**: Visualization of optimization results and performance metrics
 
 ## Frag-MaP
 
-### Protocol
+Frag-MaP is a chemical probing technique that uses fully functionalized fragment probes, mutational profiling (MaP), and next-generation sequencing to identify ligand binding sites in RNA with nucleotide precision. We analyzed our Frag-Map data with the Fragmapper analysis module in ***RNAvigate*** which is available at: https://github.com/Weeks-UNC/RNAvigate
 
-Step-by-step [printable protocol](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/blob/main/Frag-MaP/protocol/Frag-MaP_protocol.pdf) for Frag-MaP. Steps are included for cell culture through Illumina sequencing.
+### Frag-Map Analysis
 
-### Data
+The `Frag-MaP/analysis/` directory includes:
 
-Raw sequencing data can be obtained at the [GEO repository](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245321).
+- **fragmap_azide_enrichment_analysis.ipynb**: Jupyter notebook for analyzing Frag-MaP enrichment data
+- **fme3_rnavigate_samples.pkl** and **fme5_rnavigate_samples.pkl**: Processed data files containing RNAVigate samples for each sample
+- **images/**: Figures and visualizations derived from Frag-MaP data
+- **README_DATA_AVAILIBLITY.md**: Information on accessing additional data (FASTQ and SHAPEMapper profiles) not included in this repository
 
-### Analysis
+### Protocol Templates
 
-There are two options to view the analysis notebooks:
+The `Frag-MaP/protocol_templates/` directory contains detailed protocols for implementing the Frag-MaP methodology:
 
-### Static web page in browser
+- **fragmap_probe_cells.md/pdf**: Protocol for probing *B. subtilis* cells with fully functionalized fragment probes
+- **fragmap_protocol_with_enrichment.md/pdf**: Enhanced Frag-MaP protocol (with azide beads) for identifying ligand binding sites in RNA
 
-These are view-only versions of Jupyter Notebooks. 
+## Citation
 
-Frag-Mapper analysis used for:
+If you use the data or methodologies from this repository, please cite our paper:
 
-[Figure 3 and SI Figure 3](https://github.com/Weeks-UNC/2023_Veenbaas_PNAS_fpocketR_Frag-MaP/blob/main/Frag-MaP/analysis/frag-MaP_notebook.ipynb)
+### Preprint
 
-### Interactive notebooks on your local machine
+```
+Veenbaas et al. (2025). RNA ligand binding pockets and where to find them. 
+bioRxiv 2025.03.13.643147; doi: https://doi.org/10.1101/2025.03.13.643147
+```
 
-Download this repository. In order to view the Jupyter notebooks, you will need
-Jupyter installed. In order to run them, you will need a Jupyter kernel with
-RNAvigate installed.
+### PNAS
 
-In future versions of RNAvigate, syntax changes may prevent these notebooks
-from running properly. If that is the case, here is the hard link to the
-version of RNAvigate used in these notebooks.
+Accepted March 11 2025
 
-- [RNAvigate (0.2.0) source code](https://github.com/Weeks-UNC/RNAvigate/tree/48d6c1b9477b52120ce48ac0dacba0071ddf86d9)
+
+

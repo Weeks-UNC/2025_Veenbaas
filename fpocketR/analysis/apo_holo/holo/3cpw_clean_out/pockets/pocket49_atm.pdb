@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : 0.0556
+HEADER 1  - Drug Score                        : 0.0489
+HEADER 2  - Number of alpha spheres           :    71
+HEADER 3  - Mean alpha-sphere radius          : 3.5784
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4565
+HEADER 5  - Mean B-factor of pocket residues  : 0.4446
+HEADER 6  - Hydrophobicity Score              : -12.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 2.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.7856
+HEADER 10  -Pocket volume (convex hull)       : 41.8219
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.1831
+ATOM  50667  O2' U   02523      57.143 105.953 128.578  0.73  5.36           O 0
+ATOM  50665  O3' U   02523      55.383 104.835 126.798  0.50  2.14           O 0
+ATOM  23391   O6 G   01131      51.156 103.834 131.505  0.26  7.50           O 0
+ATOM  25565  OP2 A   01232      52.790 110.320 129.278  0.69  5.36           O 1
+ATOM  25523  C5' A   01231      53.529 109.056 133.362  0.00  0.00           C 0
+ATOM  25540   C8 A   01231      57.305 108.827 130.408  0.00  0.00           C 0
+ATOM  25504  O4' A   01230      53.205 104.541 134.006  0.00  0.00           O 0
+ATOM  25520  OP1 A   01230      55.786 101.990 135.277  0.21  2.14           O 0
+ATOM  23384   N1 G   01131      52.600 102.068 131.344  0.00  0.00           N 0
+ATOM  23386   N2 G   01131      54.180 100.381 131.274  0.17  1.09           N 0
+ATOM  25536   C5 A   01231      59.275 108.239 130.947  0.00  0.00           C 0
+ATOM  25538   N6 A   01231      61.117 106.853 130.214  0.00  0.00           N 0
+ATOM  25537   C6 A   01231      60.570 107.709 131.079  0.00  0.00           C 0
+ATOM  50668  C1' U   02523      58.328 103.861 128.677  0.00  0.00           C 0
+ATOM  23369   O4 U   01130      52.110 102.710 127.975  0.36  2.14           O 0
+ATOM  50700  OP1 G   02524      53.922 105.771 125.023  0.54  7.50           O 0
+ATOM  50662  C4' U   02523      56.090 103.187 128.459  0.00  0.00           C 0
+ATOM  25503  C4' A   01230      53.755 105.634 134.787  0.00  0.00           C 0
+ATOM  25501  C5' A   01230      55.109 105.230 135.319  0.00  0.00           C 0
+ATOM  25539   N7 A   01231      58.287 108.067 129.989  0.41  1.09           N 0
+ATOM  50663  O4' U   02523      57.363 102.912 129.099  0.48  4.29           O 0
+ATOM  50648   N2 G   02522      61.440 102.992 130.549  0.47  1.09           N 0
+ATOM  25535   C4 A   01231      58.852 109.110 131.933  0.00  0.00           C 0
+ATOM  25541   N9 A   01231      57.578 109.488 131.580  0.00  0.00           N 0
+ATOM  25526  O4' A   01231      55.860 109.676 133.173  0.34  1.07           O 0
+ATOM  25534   N3 A   01231      59.550 109.506 133.010  0.50  2.19           N 0
+ATOM  25527  C3' A   01231      54.498 110.668 131.575  0.00  0.00           C 0
+ATOM  50149  O4' U   02499      62.705 104.879 134.286  0.00  0.00           O 0
+ATOM  50153  O2' U   02499      60.695 103.416 136.201  0.50  2.14           O 0
+ATOM  50154  C1' U   02499      62.212 103.550 134.365  0.00  0.00           C 0
+ATOM  25532   N1 A   01231      61.297 108.092 132.148  0.00  0.00           N 0
+ATOM  25533   C2 A   01231      60.753 108.943 133.022  0.00  0.00           C 0
+ATOM  50148  C4' U   02499      62.841 105.424 135.625  0.00  0.00           C 0
+ATOM  50157   O2 U   02499      61.474 101.085 133.370  0.41  5.36           O 0
+ATOM  50649   N3 G   02522      60.727 100.813 130.231  0.00  0.00           N 0
+ATOM  50644  O2' G   02522      57.041  99.525 130.683  0.26  4.29           O 0
+ATOM  25521  OP2 A   01230      57.414 103.632 136.396  0.45  6.43           O 1
+TER
+END

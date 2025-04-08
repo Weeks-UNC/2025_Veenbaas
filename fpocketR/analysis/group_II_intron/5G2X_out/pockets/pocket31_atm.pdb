@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.1192
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    44
+HEADER 3  - Mean alpha-sphere radius          : 3.4497
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4754
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -7.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.5163
+HEADER 10  -Pocket volume (convex hull)       : 21.5076
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.6667
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.0682
+ATOM   2053   C6 U   A  96     173.380 112.374 132.408  0.00  0.00           C 0
+ATOM   1746   N6 A   A  82     172.354 116.227 132.950  0.36  2.19           N 0
+ATOM   1999  O2' G   A  94     168.379 113.773 130.024  0.32  3.21           O 0
+ATOM   2043  C2' U   A  96     172.398 110.661 134.832  0.00  0.00           C 0
+ATOM   2037  C5' U   A  96     170.594 109.361 132.404  0.00  0.00           C 0
+ATOM   2054  OP1 U   A  96     169.288 110.603 129.865  0.54  1.07           O 0
+ATOM   2073   N7 A   A  97     169.731 112.152 137.541  0.44  4.37           N 0
+ATOM   2041  C3' U   A  96     171.593 109.368 134.765  0.00  0.00           C 0
+ATOM   1740   N1 A   A  82     173.302 115.194 134.785  0.00  0.00           N 0
+ATOM   2006   C5 G   A  94     166.296 117.849 132.232  0.00  0.00           C 0
+ATOM   2007   C6 G   A  94     166.180 118.893 133.186  0.00  0.00           C 0
+ATOM   1747   N7 A   A  82     171.353 118.345 134.952  0.46  1.09           N 0
+ATOM   2001   N1 G   A  94     167.305 119.710 133.188  0.45  6.56           N 0
+ATOM   2011   N9 G   A  94     167.257 116.679 130.649  0.00  0.00           N 0
+ATOM   2000  C1' G   A  94     168.192 116.169 129.643  0.00  0.00           C 0
+ATOM   2072   N6 A   A  97     168.250 114.849 137.359  0.38  8.75           N 0
+ATOM   1724   N6 A   A  81     165.781 116.894 137.194  0.12  1.09           N 0
+ATOM   1745   C6 A   A  82     172.579 116.210 134.265  0.00  0.00           C 0
+ATOM   2005   C4 G   A  94     167.439 117.772 131.464  0.00  0.00           C 0
+ATOM   2004   N3 G   A  94     168.521 118.579 131.482  0.41  2.19           N 0
+ATOM   2002   C2 G   A  94     168.401 119.547 132.376  0.00  0.00           C 0
+ATOM   1748   C8 A   A  82     171.232 118.851 136.155  0.00  0.00           C 0
+ATOM   1723   C6 A   A  81     166.091 117.410 138.386  0.00  0.00           C 0
+ATOM   1722   C5 A   A  81     166.022 118.782 138.684  0.00  0.00           C 0
+ATOM   1725   N7 A   A  81     165.654 119.885 137.927  0.40  5.47           N 0
+ATOM   2009   N7 G   A  94     165.414 116.827 131.907  0.71  2.19           N 0
+ATOM   1680   N4 C   A  79     163.833 115.335 135.291  0.59  6.56           N 0
+ATOM   2010   C8 G   A  94     166.025 116.160 130.967  0.00  0.00           C 0
+ATOM   1744   C5 A   A  82     172.106 117.196 135.150  0.00  0.00           C 0
+TER
+END

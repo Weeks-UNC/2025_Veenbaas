@@ -1,0 +1,54 @@
+CRYST1  148.819   29.558   95.170  90.00  94.55  90.00 C 1 2 1       8
+HETATM    1  CM2 TPP X 100     -13.020  -7.679  -0.181  1.00 26.25      K    C  
+HETATM    2  CM4 TPP X 100     -17.643 -13.196  -1.204  1.00 31.08      K    C  
+HETATM    3  PA  TPP X 100     -21.948 -15.396   1.843  1.00 33.67      K    P  
+HETATM    4  PB  TPP X 100     -24.454 -16.292   0.670  1.00 33.62      K    P  
+HETATM    5  C7' TPP X 100     -15.823 -12.542   1.055  1.00 28.52      K    C  
+HETATM    6  C6' TPP X 100     -15.698 -10.023   0.884  1.00 27.12      K    C  
+HETATM    7  C5' TPP X 100     -15.084 -11.258   0.718  1.00 27.62      K    C  
+HETATM    8  C4' TPP X 100     -13.780 -11.295   0.252  1.00 26.49      K    C  
+HETATM    9  N4' TPP X 100     -13.140 -12.476   0.073  1.00 25.94      K    N  
+HETATM   10  N3' TPP X 100     -13.138 -10.140  -0.028  1.00 26.00      K    N  
+HETATM   11  C2' TPP X 100     -13.757  -8.951   0.140  1.00 26.47      K    C  
+HETATM   12  N1' TPP X 100     -15.033  -8.896   0.594  1.00 26.40      K    N  
+HETATM   13  O1A TPP X 100     -21.624 -14.739   3.159  1.00 34.72      K    O1-
+HETATM   14  O1B TPP X 100     -24.031 -17.708   0.914  1.00 34.74      K    O  
+HETATM   15  S1  TPP X 100     -19.571 -11.627   2.005  1.00 33.96      K    S  
+HETATM   16  C2  TPP X 100     -17.858 -11.774   2.244  1.00 32.29      K    C  
+HETATM   17  O2A TPP X 100     -21.398 -16.773   1.606  1.00 34.01      K    O  
+HETATM   18  O2B TPP X 100     -25.855 -16.105   1.149  1.00 34.31      K    O1-
+HETATM   19  N3  TPP X 100     -17.264 -12.304   1.139  1.00 31.59      K    N  
+HETATM   20  O3A TPP X 100     -23.555 -15.351   1.637  1.00 33.94      K    O  
+HETATM   21  O3B TPP X 100     -24.240 -15.771  -0.725  1.00 34.89      K    O  
+HETATM   22  C4  TPP X 100     -18.096 -12.604   0.104  1.00 32.19      K    C  
+HETATM   23  C5  TPP X 100     -19.512 -12.262   0.408  1.00 32.40      K    C  
+HETATM   24  C6  TPP X 100     -20.812 -12.376  -0.343  1.00 33.54      K    C  
+HETATM   25  C7  TPP X 100     -21.815 -13.116   0.528  1.00 34.57      K    C  
+HETATM   26  O7  TPP X 100     -21.374 -14.461   0.668  1.00 33.65      K    O  
+CONECT    1   11
+CONECT    2   22
+CONECT    3   13   17   20   26
+CONECT    4   14   18   21   20
+CONECT    5   19    7
+CONECT    6    7   12
+CONECT    7    5    6    8
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11    1   10   12
+CONECT   12    6   11
+CONECT   13    3
+CONECT   14    4
+CONECT   15   23   16
+CONECT   16   15   19
+CONECT   17    3
+CONECT   18    4
+CONECT   19    5   16   22
+CONECT   20    3    4
+CONECT   21    4
+CONECT   22   19    2   23
+CONECT   23   15   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25    3
+END

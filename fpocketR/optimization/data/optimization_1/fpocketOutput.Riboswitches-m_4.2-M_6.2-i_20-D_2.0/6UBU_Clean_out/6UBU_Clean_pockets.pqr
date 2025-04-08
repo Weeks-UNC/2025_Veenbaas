@@ -1,0 +1,25 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It contains all the pocket vertices found by fpocket.                    
+ATOM      1    O STP     1       1.984   8.025  -0.634    0.00     4.28
+ATOM      2    O STP     1       0.249  12.301   3.844    0.00     4.38
+ATOM      3    O STP     1       0.983  11.467   1.987    0.00     4.53
+ATOM      4    O STP     1       1.017  11.482   2.000    0.00     4.50
+ATOM      5    C STP     1       1.010  11.484   1.971    0.00     4.51
+ATOM      6    O STP     1      -0.648  11.608   2.431    0.00     5.28
+ATOM      7    O STP     1       1.238   7.381   1.869    0.00     4.68
+ATOM      8    O STP     1       0.906   9.811   2.880    0.00     4.36
+ATOM      9    O STP     1       1.242   7.405   1.866    0.00     4.69
+ATOM     10    O STP     1       1.249   7.410   1.889    0.00     4.67
+ATOM     11    O STP     1       1.666   8.464   0.515    0.00     4.68
+ATOM     12    O STP     1       1.901   9.466   0.657    0.00     4.35
+ATOM     13    O STP     1       1.141  11.552   2.087    0.00     4.35
+ATOM     14    O STP     1       1.163  11.604   2.208    0.00     4.27
+ATOM     15    O STP     1       0.275  12.253   3.799    0.00     4.38
+ATOM     16    C STP     1       1.824   9.512   0.727    0.00     4.37
+ATOM     17    C STP     1       0.957  11.402   1.972    0.00     4.56
+ATOM     18    C STP     1       1.055  10.659   1.414    0.00     4.57
+ATOM     19    O STP     1       0.915   9.793   2.874    0.00     4.36
+ATOM     20    O STP     1       1.033   9.490   2.831    0.00     4.30
+TER
+END

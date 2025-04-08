@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.2528
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    63
+HEADER 3  - Mean alpha-sphere radius          : 3.4131
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4234
+HEADER 5  - Mean B-factor of pocket residues  : 0.2669
+HEADER 6  - Hydrophobicity Score              : -15.4545
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 2.4545
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.9930
+HEADER 10  -Pocket volume (convex hull)       : 83.3138
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.4000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.0794
+ATOM  31020  O2' U   01488      91.822 161.882  61.874  0.39  7.50           O 0
+ATOM  30952  O3' A   01485      90.110 159.721  56.558  0.54  1.07           O 0
+ATOM  31054  OP2 G   01489      93.932 163.941  59.104  0.44  6.43           O 1
+ATOM  31050   N7 G   01489      95.028 161.114  56.764  0.28  1.09           N 0
+ATOM  18238  O4' G   0 863      89.852 153.065  59.899  0.70  1.07           O 0
+ATOM  18237  C4' G   0 863      88.816 152.824  58.909  0.00  0.00           C 0
+ATOM  30950  O4' A   01485      91.839 157.206  55.881  0.58  3.21           O 0
+ATOM  18242  O2' G   0 863      91.149 151.682  57.412  0.70  1.07           O 0
+ATOM  30947  C5' A   01485      89.735 156.539  54.800  0.00  0.00           C 0
+ATOM  16576  O2' U   0 785      97.282 158.466  60.608  0.37  2.14           O 0
+ATOM  31034  O5' G   01489      96.042 163.033  59.990  0.00  0.00           O 0
+ATOM  31018  O3' U   01488      94.043 163.328  61.506  0.56  1.07           O 0
+ATOM  31033  C5' G   01489      97.125 162.885  60.910  0.00  0.00           C 0
+ATOM  30955  C1' A   01485      92.604 158.381  55.723  0.00  0.00           C 0
+ATOM  30988  OP1 A   01486      88.721 160.499  58.423  0.64  7.50           O 0
+ATOM  31011  OP2 A   01487      89.611 164.744  58.631  0.53  4.29           O 1
+ATOM  31051   C8 G   01489      95.841 161.024  57.783  0.00  0.00           C 0
+ATOM  18222  O2' U   0 862      88.353 155.590  61.388  0.48  5.36           O 0
+ATOM  31006   N6 A   01487      88.375 159.012  64.228  0.46  1.09           N 0
+ATOM  18226   O2 U   0 862      91.924 154.550  62.875  0.67  4.29           O 0
+ATOM  30949  C4' A   01485      90.425 157.524  55.721  0.00  0.00           C 0
+ATOM  30989  OP2 A   01486      87.760 158.836  56.723  0.00  3.21           O 1
+ATOM  31007   N7 A   01487      88.163 161.665  62.659  0.56  2.19           N 0
+ATOM  30958   N3 A   01485      95.171 157.755  57.228  0.32  1.09           N 0
+ATOM  16580   O2 U   0 785      95.396 156.202  62.924  0.37  2.14           O 0
+ATOM  18235  C5' G   0 863      87.476 153.200  59.497  0.00  0.00           C 0
+ATOM  30969  C5' A   01486      88.901 162.423  56.013  0.00  0.00           C 0
+ATOM  30954  O2' A   01485      92.161 160.656  55.136  0.31  3.21           O 0
+ATOM  30383   N1 A   01458      94.662 154.190  56.847  0.00  0.00           N 0
+ATOM  18243  C1' G   0 863      90.887 152.104  59.758  0.00  0.00           C 0
+ATOM  31024   O2 U   01488      92.912 159.930  64.526  0.50  4.29           O 0
+ATOM  18223  C1' U   0 862      89.330 155.290  63.560  0.00  0.00           C 0
+ATOM  16557   C2 A   0 784      94.730 152.744  61.932  0.00  0.00           C 0
+ATOM  30384   C2 A   01458      95.791 153.790  57.452  0.00  0.00           C 0
+ATOM  16592  O4' G   0 786      97.236 159.559  64.153  0.00  0.00           O 0
+ATOM  16577  C1' U   0 785      97.441 156.141  61.133  0.00  0.00           C 0
+ATOM  30957   C2 A   01485      96.422 157.456  57.580  0.00  0.00           C 0
+TER
+END

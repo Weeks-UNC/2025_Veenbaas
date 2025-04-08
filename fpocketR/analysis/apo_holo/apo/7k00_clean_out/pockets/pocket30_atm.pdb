@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : 0.0804
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    43
+HEADER 3  - Mean alpha-sphere radius          : 3.4535
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4445
+HEADER 5  - Mean B-factor of pocket residues  : 0.1468
+HEADER 6  - Hydrophobicity Score              : -2.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.6247
+HEADER 10  -Pocket volume (convex hull)       : 23.5142
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.1860
+ATOM  48457  O5' A   a 575     179.141 129.388 170.589  0.00  0.00           O 0
+ATOM  86597  O3' U   a2500     178.527 134.054 168.018  0.00  0.00           O 0
+ATOM  86599  O2' U   a2500     178.110 134.938 170.562  0.00  0.00           O 0
+ATOM  86594  C4' U   a2500     180.178 133.066 169.515  0.00  0.00           C 0
+ATOM  48458  C4' A   a 575     178.573 129.461 168.259  0.00  0.00           C 0
+ATOM  48461  O3' A   a 575     176.476 129.805 167.194  0.60  1.07           O 0
+ATOM  48456  C5' A   a 575     178.290 128.817 169.587  0.00  0.00           C 0
+ATOM  86695  OP1 PSU a2504     175.409 134.948 170.050  0.74  2.14           O 0
+ATOM  86629  OP1 C   a2501     177.331 133.683 165.903  0.65  2.14           O 0
+ATOM  86696  OP2 PSU a2504     173.340 133.588 170.889  0.47  4.29           O 0
+ATOM  79035   C5 C   a2055     178.481 130.434 173.713  0.00  0.00           C 0
+ATOM  79060  OP1 G   a2056     172.461 130.971 173.203  0.50  6.43           O 0
+ATOM  79036   C6 C   a2055     177.491 130.267 174.606  0.00  0.00           C 0
+ATOM  48495  OP1 U   a 576     174.036 130.116 167.280  0.49  9.64           O 0
+ATOM  86675  OP1 2MA a2503     172.583 132.492 166.790  0.27  3.21           O 0
+ATOM  48496  OP2 U   a 576     175.055 127.792 167.466  0.38  9.64           O 0
+ATOM  79083  OP1 G   a2057     168.668 128.836 171.833  0.00  4.29           O 0
+ATOM  48434  C5' A   a 574     176.917 126.029 171.590  0.00  0.00           C 0
+ATOM  48436  C4' A   a 574     177.722 127.018 172.397  0.00  0.00           C 0
+ATOM  79020  C5' C   a2055     174.004 128.680 175.134  0.00  0.00           C 0
+ATOM  48437  O4' A   a 574     177.233 127.077 173.767  0.00  0.00           O 0
+ATOM  79038  OP2 C   a2055     173.984 125.436 174.391  0.52  6.43           O 0
+ATOM  79037  OP1 C   a2055     171.826 126.616 175.103  0.64  4.29           O 0
+ATOM  86679  O5' PSU a2504     174.790 134.861 172.513  0.74  1.07           O 0
+ATOM  79033   C4 C   a2055     179.374 131.532 173.911  0.00  0.00           C 0
+ATOM  79024  C3' C   a2055     174.227 131.221 175.531  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,2 @@
+,Parameters,Name,PDB,State,Type,Filter,Pocket,Score,Drug score,a-sphere,SASA,Volume,Hydrophobic density,Apolar a-sphere proportion,Hydrophobicity score,Polarity score,PocketNT,Pocket npr1,Pocket npr2,Pocket overlap,Ligand overlap,Center criteria,NPR1,NPR2,QED score,Geometry
+0,-m 3.0 -M 5.7 -i 42 -D 1.65 -A 3 -p 0.0,1q8n_state2,1q8n,2,Known,Pass,1,0.4,0.69,226,2e+02,7.1e+02,29,0.22,-4.9,8,"[3, 7, 8, 9, 23, 24, 25, 27, 28, 29, 30]",0.37,0.78,0.93,1,1.2,0.37,0.68,0.76,Disc-like
