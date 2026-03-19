@@ -67,11 +67,8 @@ The `Frag-MaP/protocol_templates/` directory contains detailed protocols for imp
 
 If you use the data or methodologies from this repository, please cite our paper:
 
-### Preprint
-
 ```
-Veenbaas et al. (2025). RNA ligand binding pockets and where to find them. 
-bioRxiv 2025.03.13.643147; doi: https://doi.org/10.1101/2025.03.13.643147
+S.D. Veenbaas, J.T. Koehn, P.S. Irving, N.N. Lama, & K.M. Weeks, Ligand-binding pockets in RNA and where to find them, Proc. Natl. Acad. Sci. U.S.A. 122 (17) e2422346122, https://doi.org/10.1073/pnas.2422346122 (2025).
 ```
 
 ### PNAS
